@@ -364,8 +364,8 @@
                 <div class="col-md-12 mb-4 text-center">
                     <h1 class="display-1 d-none d-md-block text-white"> {{ __('Choose your Shared Hosting Plan') }} </h1>
                     <h1 class="mt-6 d-md-none d-block text-white"> {{ __('Choose your Shared Hosting Plan') }}</h1>
-                    <h2 class="text-white d-none d-md-block">{{ __('{{ __('Free Domain for Life') }} name included') }}</h2>
-                    <h4 class="text-white d-md-none d-block">{{ __('{{ __('Free Domain for Life') }} name included') }}</h4>
+                    <h2 class="text-white d-none d-md-block">{{ __(__('Free Domain for Life') }} name included') }}</h2>
+                    <h4 class="text-white d-md-none d-block">{{ __('Free Domain for Life') }} name included') }}</h4>
                     <!-- <p class="pb-4 text-white mt-0">We provide reliable, fast and secure Web hosting services with Premium Customer service of over 15+ years of experience.</p> -->
                 </div>
 
