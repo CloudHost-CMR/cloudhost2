@@ -1,5 +1,7 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/webbosscom/public_html/
+    - export DEPLOYPATH=/home/globexc1/public_html/cloudhostV2
+    - export DEPLOYPATH2=/home/globexc1/cloudhost
     - /bin/cp -a * $DEPLOYPATH
+    - /bin/cp -a * $DEPLOYPATH2
