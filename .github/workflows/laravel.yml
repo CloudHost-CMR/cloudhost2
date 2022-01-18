@@ -47,4 +47,4 @@ jobs:
           server: ftp.globexcamhost.com
           username: ${{ secrets.ftp_username }}
           password: ${{ secrets.ftp_password }}
-          server-dir: /public_html/cloudhost_production
+          server-dir: /public_html/staging/
