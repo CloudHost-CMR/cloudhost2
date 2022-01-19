@@ -54,9 +54,9 @@
                                         class="fa fa-check text-success"></i> {{ __('Free Domain for Life') }}  <i
                                         class="fas text-light fa-info-circle"></i></span>
 
-                                <span class="mb-2 tooltipped" title="500 Go Diskspace storage" data-toggle="popover"
-                                      data-content="<p class='my-0 f-8px' style='font-size:'8px''>500 Go Diskspace storage allows you to use and grow your web hosting account with Cloudhost without incurring any additional storage fees. Our storage is available for you to use for your website files only and not for data archiving including email, computer files, backup, etc.</p>"><i
-                                        class="fa fa-check text-success"></i> 500 Go Diskspace storage  <i
+                                <span class="mb-2 tooltipped" title="250 Go Diskspace storage" data-toggle="popover"
+                                      data-content="<p class='my-0 f-8px' style='font-size:'8px''>250 Go Diskspace storage allows you to use and grow your web hosting account with Cloudhost without incurring any additional storage fees. Our storage is available for you to use for your website files only and not for data archiving including email, computer files, backup, etc.</p>"><i
+                                        class="fa fa-check text-success"></i> 250 Go Diskspace storage  <i
                                         class="fas text-light fa-info-circle"></i></span>
 
                                 <span class="mb-2 tooltipped" title="Unmetered Bandwith" data-toggle="popover"
@@ -89,9 +89,9 @@
                                         class="fa fa-check text-success"></i> {{ __('Free Domain for Life') }}  <i
                                         class="fas text-light fa-info-circle"></i></span>
 
-                                <span class="mb-2 tooltipped" title="500 Go Diskspace storage" data-toggle="popover"
-                                      data-content="<p class='my-0 f-8px' style='font-size:8px' >500 Go Diskspace storage allows you to use and grow your web hosting account with Cloudhost without incurring any additional storage fees. Our storage is available for you to use for your website files only and not for data archiving including email, computer files, backup, etc.</p>"><i
-                                        class="fa fa-check text-success"></i> 500 Go Diskspace storage  <i
+                                <span class="mb-2 tooltipped" title="250 Go Diskspace storage" data-toggle="popover"
+                                      data-content="<p class='my-0 f-8px' style='font-size:8px' >250 Go Diskspace storage allows you to use and grow your web hosting account with Cloudhost without incurring any additional storage fees. Our storage is available for you to use for your website files only and not for data archiving including email, computer files, backup, etc.</p>"><i
+                                        class="fa fa-check text-success"></i> 250 Go Diskspace storage  <i
                                         class="fas text-light fa-info-circle"></i></span>
 
                                 <span class="mb-2 tooltipped" title="Unmetered Bandwith" data-toggle="popover"
@@ -411,9 +411,9 @@
                                                 class="fa fa-check text-success"></i> {{ __('Free Domain for Life') }} <i
                                                 class="fas text-light fa-info-circle"></i></span>
 
-                                        <span class="mb-2 tooltipped" title="500 Go Diskspace" data-toggle="popover"
-                                              data-content="<p class='my-0 f-8px' style='font-size:'8px''>500 Go Diskspace storage allows you to use and grow your web hosting account with Cloudhost without incurring any additional storage fees. Our storage is available for you to use for your website files only and not for data archiving including email, computer files, backup, etc.</p>"><i
-                                                class="fa fa-check text-success"></i> 500 Go Diskspace <i
+                                        <span class="mb-2 tooltipped" title="250 Go Diskspace" data-toggle="popover"
+                                              data-content="<p class='my-0 f-8px' style='font-size:'8px''>250 Go Diskspace storage allows you to use and grow your web hosting account with Cloudhost without incurring any additional storage fees. Our storage is available for you to use for your website files only and not for data archiving including email, computer files, backup, etc.</p>"><i
+                                                class="fa fa-check text-success"></i> 250 Go Diskspace <i
                                                 class="fas text-light fa-info-circle"></i></span>
 
                                         <span class="mb-2 tooltipped" title="Unmetered Bandwith" data-toggle="popover"
@@ -445,9 +445,9 @@
                                                 class="fa fa-check text-success"></i> {{ __('Free Domain for Life') }} <i
                                                 class="fas text-light fa-info-circle"></i></span>
 
-                                        <span class="mb-2 tooltipped" title="500 Go Diskspace" data-toggle="popover"
-                                              data-content="<p class='my-0 f-8px' style='font-size:'8px''>500 Go Diskspace storage allows you to use and grow your web hosting account with Cloudhost without incurring any additional storage fees. Our storage is available for you to use for your website files only and not for data archiving including email, computer files, backup, etc.</p>"><i
-                                                class="fa fa-check text-success"></i> 500 Go Diskspace <i
+                                        <span class="mb-2 tooltipped" title="250 Go Diskspace" data-toggle="popover"
+                                              data-content="<p class='my-0 f-8px' style='font-size:'8px''>250 Go Diskspace storage allows you to use and grow your web hosting account with Cloudhost without incurring any additional storage fees. Our storage is available for you to use for your website files only and not for data archiving including email, computer files, backup, etc.</p>"><i
+                                                class="fa fa-check text-success"></i> 250 Go Diskspace <i
                                                 class="fas text-light fa-info-circle"></i></span>
 
                                         <span class="mb-2 tooltipped" title="Unmetered Bandwith" data-toggle="popover"
