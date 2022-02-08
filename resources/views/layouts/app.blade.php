@@ -5,7 +5,7 @@
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="apple-touch-icon" sizes="76x76" href="{{ asset('assets/images/apple-icon.png') }}">
-    <link rel="icon" type="image/png" href="{{ asset('assets/images/favicon.png') }}">
+    <link rel="icon" type="image/png" href="{{ asset('assets/images/logo.png') }}">
     <title>
         {{ __('Cloudhost') ." ".__('Web Hosting Company') }}
     </title>
@@ -14,7 +14,7 @@
     <link href="https://use.fontawesome.com/releases/v5.10.1/css/all.css" rel="stylesheet">
     <!-- Nucleo Icons -->
     <link href="{{ asset('assets/css/nucleo-icons.css') }}" rel="stylesheet"/>
-    <link href="{{ asset('assets/css/nucleo-svg.css') }}" rel="stylesheet"/>
+    <link href="{{ asset('assets/css/nucleo-svg.css') }}" rel="stylesheet"
     <!-- Font Awesome Icons -->
     <link href="{{ asset('assets/css/font-awesome.css') }}" rel="stylesheet"/>
     <link href="{{ asset('assets/css/nucleo-svg.css') }}" rel="stylesheet"/>
@@ -193,6 +193,553 @@
 </header>
 
 @yield('content')
+
+<!-- Feature Included -->
+<section class="mt-6 mb-8">
+    <div class="container">
+        <div class="row d-flex justify-content-center">
+            <h2 class="h1 font-weight-bold mb-5"> {{ __('Included in all packages') }}</h2>
+        </div>
+        <!-- Cpanel Feature set Email-->
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-md-2">
+                                <div class="icon icon-shape icon-shape-primary rounded-circle text-white">
+                                    <i class="ni ni ni-support-16 text-primary"></i>
+                                </div>
+                                <h3 class="mb-3 mt-3">E-MAIL</h3>
+
+                            </div>
+                            <div class="col-md-10">
+                                <div class="row">
+                                    <div class="col-md-4 pb-2 my-auto border-left-1 text-center">
+                                        <div class="toast" role="alert" aria-live="assertive" aria-atomic="true" data-animation="autohide">
+                                            <div class="toast-body text-left">
+                                                Email Accounts
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-4 pb-2 my-auto border-left-1 text-center">
+                                        <div class="toast" role="alert" aria-live="assertive" aria-atomic="true" data-animation="autohide">
+                                            <div class="toast-body text-left">
+                                                Email Routing.
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-4 pb-2 my-auto border-left-1 text-center">
+                                        <div class="toast" role="alert" aria-live="assertive" aria-atomic="true" data-animation="autohide">
+                                            <div class="toast-body text-left">
+                                                Autoresponders.
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-4 pb-2 my-auto border-left-1 text-center">
+                                        <div class="toast" role="alert" aria-live="assertive" aria-atomic="true" data-animation="autohide">
+                                            <div class="toast-body text-left">
+                                                Track Delivery
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-4 pb-2 my-auto border-left-1 text-center">
+                                        <div class="toast" role="alert" aria-live="assertive" aria-atomic="true" data-animation="autohide">
+                                            <div class="toast-body text-left">
+                                                Mailing Lists
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-4 pb-2 my-auto border-left-1 text-center">
+                                        <div class="toast" role="alert" aria-live="assertive" aria-atomic="true" data-animation="autohide">
+                                            <div class="toast-body text-left">
+                                                Encryption
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!-- Cpanel Feature set -->
+
+        <!-- Cpanel Feature set Files-->
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-md-2">
+                                <div class="icon icon-shape icon-shape-primary rounded-circle text-white">
+                                    <i class="ni ni ni-support-16 text-primary"></i>
+                                </div>
+                                <h3 class="mb-3 mt-3">FILES</h3>
+
+                            </div>
+                            <div class="col-md-10">
+                                <div class="row">
+                                    <div class="col-md-4 pb-2 my-auto border-left-1 text-center">
+                                        <div class="toast" role="alert" aria-live="assertive" aria-atomic="true" data-animation="autohide">
+
+                                            <div class="toast-body text-left">
+                                                File Manager
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-4 pb-2 my-auto border-left-1 text-center">
+                                        <div class="toast" role="alert" aria-live="assertive" aria-atomic="true" data-animation="autohide">
+
+                                            <div class="toast-body text-left">
+                                                Backup
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-4 pb-2 my-auto border-left-1 text-center">
+                                        <div class="toast" role="alert" aria-live="assertive" aria-atomic="true" data-animation="autohide">
+
+                                            <div class="toast-body text-left">
+                                                Web Disk
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-4 pb-2 my-auto border-left-1 text-center">
+                                        <div class="toast" role="alert" aria-live="assertive" aria-atomic="true" data-animation="autohide">
+
+                                            <div class="toast-body text-left">
+                                                Git Version Control
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-4 pb-2 my-auto border-left-1 text-center">
+                                        <div class="toast" role="alert" aria-live="assertive" aria-atomic="true" data-animation="autohide">
+                                            <div class="toast-body text-left">
+                                                Disck Usage
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-4 pb-2 my-auto border-left-1 text-center">
+                                        <div class="toast" role="alert" aria-live="assertive" aria-atomic="true" data-animation="autohide">
+                                            <div class="toast-body text-left">
+                                                File and Directory Restoration
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!-- Cpanel Feature set -->
+
+        <!-- Cpanel Feature set Databases-->
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-md-2">
+                                <div class="icon icon-shape icon-shape-primary rounded-circle text-white">
+                                    <i class="ni ni ni-support-16 text-primary"></i>
+                                </div>
+                                <h3 class="mb-3 mt-3">DATABASES</h3>
+
+                            </div>
+                            <div class="col-md-10">
+                                <div class="row">
+                                    <div class="col-md-4 pb-2 my-auto border-left-1 text-center">
+                                        <div class="toast" role="alert" aria-live="assertive" aria-atomic="true" data-animation="autohide">
+
+                                            <div class="toast-body text-left">
+                                                PhpMyAdmin
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-4 pb-2 my-auto border-left-1 text-center">
+                                        <div class="toast" role="alert" aria-live="assertive" aria-atomic="true" data-animation="autohide">
+
+                                            <div class="toast-body text-left">
+                                                Mysql Databases
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-4 pb-2 my-auto border-left-1 text-center">
+                                        <div class="toast" role="alert" aria-live="assertive" aria-atomic="true" data-animation="autohide">
+
+                                            <div class="toast-body text-left">
+                                                Mysql Databases Wizard
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-4 pb-2 my-auto border-left-1 text-center">
+                                        <div class="toast" role="alert" aria-live="assertive" aria-atomic="true" data-animation="autohide">
+
+                                            <div class="toast-body text-left">
+                                                Remote Mysql
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!-- Cpanel Feature set -->
+
+        <!-- Cpanel Feature set Domains-->
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-md-2">
+                                <div class="icon icon-shape icon-shape-primary rounded-circle text-white">
+                                    <i class="ni ni ni-support-16 text-primary"></i>
+                                </div>
+                                <h3 class="mb-3 mt-3">DOMAINS</h3>
+
+                            </div>
+                            <div class="col-md-10">
+                                <div class="row">
+                                    <div class="col-md-4 pb-2 my-auto border-left-1 text-center">
+                                        <div class="toast" role="alert" aria-live="assertive" aria-atomic="true" data-animation="autohide">
+
+                                            <div class="toast-body text-left">
+                                                Domains
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-4 pb-2 my-auto border-left-1 text-center">
+                                        <div class="toast" role="alert" aria-live="assertive" aria-atomic="true" data-animation="autohide">
+
+                                            <div class="toast-body text-left">
+                                                Addon Domains
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-4 pb-2 my-auto border-left-1 text-center">
+                                        <div class="toast" role="alert" aria-live="assertive" aria-atomic="true" data-animation="autohide">
+
+                                            <div class="toast-body text-left">
+                                                Subdomains
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-4 pb-2 my-auto border-left-1 text-center">
+                                        <div class="toast" role="alert" aria-live="assertive" aria-atomic="true" data-animation="autohide">
+
+                                            <div class="toast-body text-left">
+                                                Aliases
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-4 pb-2 my-auto border-left-1 text-center">
+                                        <div class="toast" role="alert" aria-live="assertive" aria-atomic="true" data-animation="autohide">
+
+                                            <div class="toast-body text-left">
+                                                Redirects
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-4 pb-2 my-auto border-left-1 text-center">
+                                        <div class="toast" role="alert" aria-live="assertive" aria-atomic="true" data-animation="autohide">
+
+                                            <div class="toast-body text-left">
+                                                Dynamic DNS
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!-- Cpanel Feature set -->
+
+        <!-- Cpanel Feature set Security-->
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-md-2">
+                                <div class="icon icon-shape icon-shape-primary rounded-circle text-white">
+                                    <i class="ni ni ni-support-16 text-primary"></i>
+                                </div>
+                                <h3 class="mb-3 mt-3">SECURITY</h3>
+
+                            </div>
+                            <div class="col-md-10">
+                                <div class="row">
+                                    <div class="col-md-4 pb-2 my-auto border-left-1 text-center">
+                                        <div class="toast" role="alert" aria-live="assertive" aria-atomic="true" data-animation="autohide">
+
+                                            <div class="toast-body text-left">
+                                                SSH Access
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-4 pb-2 my-auto border-left-1 text-center">
+                                        <div class="toast" role="alert" aria-live="assertive" aria-atomic="true" data-animation="autohide">
+
+                                            <div class="toast-body text-left">
+                                                Ip Blocker
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-4 pb-2 my-auto border-left-1 text-center">
+                                        <div class="toast" role="alert" aria-live="assertive" aria-atomic="true" data-animation="autohide">
+
+                                            <div class="toast-body text-left">
+                                                SSL/TLS
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-4 pb-2 my-auto border-left-1 text-center">
+                                        <div class="toast" role="alert" aria-live="assertive" aria-atomic="true" data-animation="autohide">
+
+                                            <div class="toast-body text-left">
+                                                Leech Protection
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-4 pb-2 my-auto border-left-1 text-center">
+                                        <div class="toast" role="alert" aria-live="assertive" aria-atomic="true" data-animation="autohide">
+
+                                            <div class="toast-body text-left">
+                                                Imunify360
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-4 pb-2 my-auto border-left-1 text-center">
+                                        <div class="toast" role="alert" aria-live="assertive" aria-atomic="true" data-animation="autohide">
+
+                                            <div class="toast-body text-left">
+                                                Manage API Tokens
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!-- Cpanel Feature set -->
+
+        <!-- Cpanel Feature set Software-->
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-md-2">
+                                <div class="icon icon-shape icon-shape-primary rounded-circle text-white">
+                                    <i class="ni ni ni-support-16 text-primary"></i>
+                                </div>
+                                <h3 class="mb-3 mt-3">SOFTWARE</h3>
+
+                            </div>
+                            <div class="col-md-10">
+                                <div class="row">
+                                    <div class="col-md-4 pb-2 my-auto border-left-1 text-center">
+                                        <div class="toast" role="alert" aria-live="assertive" aria-atomic="true" data-animation="autohide">
+
+                                            <div class="toast-body text-left">
+                                                Cloudflare
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-4 pb-2 my-auto border-left-1 text-center">
+                                        <div class="toast" role="alert" aria-live="assertive" aria-atomic="true" data-animation="autohide">
+
+                                            <div class="toast-body text-left">
+                                                Wordpress Manager
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-4 pb-2 my-auto border-left-1 text-center">
+                                        <div class="toast" role="alert" aria-live="assertive" aria-atomic="true" data-animation="autohide">
+
+                                            <div class="toast-body text-left">
+                                                MultiPHP
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-4 pb-2 my-auto border-left-1 text-center">
+                                        <div class="toast" role="alert" aria-live="assertive" aria-atomic="true" data-animation="autohide">
+
+                                            <div class="toast-body text-left">
+                                                Site Software
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-4 pb-2 my-auto border-left-1 text-center">
+                                        <div class="toast" role="alert" aria-live="assertive" aria-atomic="true" data-animation="autohide">
+
+                                            <div class="toast-body text-left">
+                                                Softaculous Apps Installer
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-4 pb-2 my-auto border-left-1 text-center">
+                                        <div class="toast" role="alert" aria-live="assertive" aria-atomic="true" data-animation="autohide">
+
+                                            <div class="toast-body text-left">
+                                                Perl Modules
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!-- Cpanel Feature set -->
+
+        <!-- Cpanel Feature set Advanced-->
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-md-2">
+                                <div class="icon icon-shape icon-shape-primary rounded-circle text-white">
+                                    <i class="ni ni ni-support-16 text-primary"></i>
+                                </div>
+                                <h3 class="mb-3 mt-3">ADVANCED</h3>
+
+                            </div>
+                            <div class="col-md-10">
+                                <div class="row">
+                                    <div class="col-md-4 pb-2 my-auto border-left-1 text-center">
+                                        <div class="toast" role="alert" aria-live="assertive" aria-atomic="true" data-animation="autohide">
+
+                                            <div class="toast-body text-left">
+                                                LiteSpeed Web Cache Manager
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-4 pb-2 my-auto border-left-1 text-center">
+                                        <div class="toast" role="alert" aria-live="assertive" aria-atomic="true" data-animation="autohide">
+
+                                            <div class="toast-body text-left">
+                                                Cron Jobs
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-4 pb-2 my-auto border-left-1 text-center">
+                                        <div class="toast" role="alert" aria-live="assertive" aria-atomic="true" data-animation="autohide">
+
+                                            <div class="toast-body text-left">
+                                                Track DNS
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-4 pb-2 my-auto border-left-1 text-center">
+                                        <div class="toast" role="alert" aria-live="assertive" aria-atomic="true" data-animation="autohide">
+
+                                            <div class="toast-body text-left">
+                                                Indexes
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-4 pb-2 my-auto border-left-1 text-center">
+                                        <div class="toast" role="alert" aria-live="assertive" aria-atomic="true" data-animation="autohide">
+
+                                            <div class="toast-body text-left">
+                                                Error Pages
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-4 pb-2 my-auto border-left-1 text-center">
+                                        <div class="toast" role="alert" aria-live="assertive" aria-atomic="true" data-animation="autohide">
+
+                                            <div class="toast-body text-left">
+                                                MIME Types
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!-- Cpanel Feature set -->
+
+
+    </div>
+</section>
+<!-- End Feature Included -->
 
 <!-- VP -->
 <section class="section mt-4"
@@ -565,8 +1112,10 @@
         </div>
     </div>
 </section>
+
 <!-- Support -->
 @yield('cta')
+
 <div id="whatsapp-widget" class="ww-right ww-normal ww-yes"><a target="_blank"
                                                                href="https://wa.me/237670858799/?text=Hi ,"
                                                                class="ww-text">{{ __('Need Helps ? Message Us') }}
