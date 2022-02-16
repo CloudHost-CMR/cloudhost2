@@ -200,65 +200,117 @@
         <div class="row d-flex justify-content-center">
             <h2 class="h1 font-weight-bold mb-5"> {{ __('Included in all packages') }}</h2>
         </div>
-        <!-- Cpanel Feature set Email-->
+        <!-- Cpanel Feature set -->
         <div class="row">
             <div class="col-md-12">
                 <div class="card">
                     <div class="card-body">
                         <div class="row">
                             <div class="col-md-2">
-                                <div class="icon icon-shape icon-shape-primary rounded-circle text-white">
-                                    <i class="ni ni ni-support-16 text-primary"></i>
-                                </div>
-                                <h3 class="mb-3 mt-3">E-MAIL</h3>
+                                <h4>
+                                    <div class="icon icon-shape rounded-circle text-white">
+                                        <i class="fas fa-globe text-primary"></i>
+                                    </div> Domains
+                                </h4>
 
                             </div>
                             <div class="col-md-10">
                                 <div class="row">
                                     <div class="col-md-4 pb-2 my-auto border-left-1 text-center">
-                                        <div class="toast" role="alert" aria-live="assertive" aria-atomic="true" data-animation="autohide">
+                                        <div class="toast mt-2" role="alert" aria-live="assertive" aria-atomic="true" data-animation="autohide">
+                                            <div class="toast-header">
+                                                <strong class="mr-auto">WordPress Toolkit</strong>
+                                            </div>
                                             <div class="toast-body text-left">
-                                                Email Accounts
+                                                This is a feature-rich management interface that allows anyone to install, configure, and manage WordPress websites.
                                             </div>
                                         </div>
                                     </div>
 
                                     <div class="col-md-4 pb-2 my-auto border-left-1 text-center">
-                                        <div class="toast" role="alert" aria-live="assertive" aria-atomic="true" data-animation="autohide">
+                                        <div class="toast mt-2" role="alert" aria-live="assertive" aria-atomic="true" data-animation="autohide">
+                                            <div class="toast-header">
+                                                <strong class="mr-auto">Site Publisher</strong>
+                                            </div>
                                             <div class="toast-body text-left">
-                                                Email Routing.
+                                                You can use this interface to quickly create a website from a set of available templates. This allows visitors to see some basic information while you continue to develop your website.
                                             </div>
                                         </div>
                                     </div>
 
                                     <div class="col-md-4 pb-2 my-auto border-left-1 text-center">
-                                        <div class="toast" role="alert" aria-live="assertive" aria-atomic="true" data-animation="autohide">
+                                        <div class="toast mt-2" role="alert" aria-live="assertive" aria-atomic="true" data-animation="autohide">
+                                            <div class="toast-header">
+                                                <strong class="mr-auto">Domains</strong>
+                                            </div>
                                             <div class="toast-body text-left">
-                                                Autoresponders.
+                                                This interface helps you to create and manage multiple domains from a single cPanel account.
                                             </div>
                                         </div>
                                     </div>
 
                                     <div class="col-md-4 pb-2 my-auto border-left-1 text-center">
-                                        <div class="toast" role="alert" aria-live="assertive" aria-atomic="true" data-animation="autohide">
+                                        <div class="toast mt-2" role="alert" aria-live="assertive" aria-atomic="true" data-animation="autohide">
+                                            <div class="toast-header">
+                                                <strong class="mr-auto">Addon domains</strong>
+                                            </div>
                                             <div class="toast-body text-left">
-                                                Track Delivery
+                                                Addon domains allow you to control multiple domains from a single account. An addon domain links a new domain name to a directory in your account, and then stores its files in that directory.
                                             </div>
                                         </div>
                                     </div>
 
                                     <div class="col-md-4 pb-2 my-auto border-left-1 text-center">
-                                        <div class="toast" role="alert" aria-live="assertive" aria-atomic="true" data-animation="autohide">
+                                        <div class="toast mt-2" role="alert" aria-live="assertive" aria-atomic="true" data-animation="autohide">
+                                            <div class="toast-header">
+                                                <strong class="mr-auto">Subdomains</strong>
+                                            </div>
                                             <div class="toast-body text-left">
-                                                Mailing Lists
+                                                Use subdomains to create memorable URLs for different content areas of your site. For example, you can create a subdomain for your blog that is accessible through blog.example.com and www.example.com/blog
                                             </div>
                                         </div>
                                     </div>
 
                                     <div class="col-md-4 pb-2 my-auto border-left-1 text-center">
-                                        <div class="toast" role="alert" aria-live="assertive" aria-atomic="true" data-animation="autohide">
+                                        <div class="toast mt-2" role="alert" aria-live="assertive" aria-atomic="true" data-animation="autohide">
+                                            <div class="toast-header">
+                                                <strong class="mr-auto">Aliases</strong>
+                                            </div>
                                             <div class="toast-body text-left">
-                                                Encryption
+                                                Domain aliases are domains that you own, but which do not contain any content. Instead, they point to the contents of another domain or subdomain on your account. This is useful, for example, to hold a domain that you will later sell, or to redirect traffic to another domain.
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-4 pb-2 my-auto border-left-1 text-center">
+                                        <div class="toast mt-2" role="alert" aria-live="assertive" aria-atomic="true" data-animation="autohide">
+                                            <div class="toast-header">
+                                                <strong class="mr-auto">Redirects</strong>
+                                            </div>
+                                            <div class="toast-body text-left">
+                                                The Redirects interface allows you to send all of the visitors of a domain or particular page to a different URL. For example, if you create a page with a long URL, use the Redirects interface to add a redirect from a short URL to the long URL. Visitors can enter the short URL to access the content of the long URL.
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-4 pb-2 my-auto border-left-1 text-center">
+                                        <div class="toast mt-2" role="alert" aria-live="assertive" aria-atomic="true" data-animation="autohide">
+                                            <div class="toast-header">
+                                                <strong class="mr-auto">Zone Editor </strong>
+                                            </div>
+                                            <div class="toast-body text-left">
+                                                The Zone Editor feature allows you to create, edit, and delete Domain Name System (DNS) zone records. DNS relies on zone records that exist on your server to map domain names to IP addresses.
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-4 pb-2 my-auto border-left-1 text-center">
+                                        <div class="toast mt-2" role="alert" aria-live="assertive" aria-atomic="true" data-animation="autohide">
+                                            <div class="toast-header">
+                                                <strong class="mr-auto">Dynamic DNS</strong>
+                                            </div>
+                                            <div class="toast-body text-left">
+                                                Use this interface to utilize a Domain Name System (DNS) hosted on the cPanel server to resolve a hostname that exists on an external network with a dynamic IP address. A dynamic IP address changes, while a static IP address stays the same.
                                             </div>
                                         </div>
                                     </div>
@@ -275,69 +327,206 @@
         </div>
         <!-- Cpanel Feature set -->
 
-        <!-- Cpanel Feature set Files-->
+        <!-- Cpanel Feature set -->
         <div class="row">
             <div class="col-md-12">
                 <div class="card">
                     <div class="card-body">
                         <div class="row">
-                            <div class="col-md-2">
-                                <div class="icon icon-shape icon-shape-primary rounded-circle text-white">
-                                    <i class="ni ni ni-support-16 text-primary"></i>
-                                </div>
-                                <h3 class="mb-3 mt-3">FILES</h3>
 
+                            <div class="col-md-2">
+                                <h4>
+                                    <div class="icon icon-shape rounded-circle text-white">
+                                        <i class="fas fa-envelope text-primary"></i>
+                                    </div> Email
+                                </h4>
                             </div>
+
                             <div class="col-md-10">
                                 <div class="row">
                                     <div class="col-md-4 pb-2 my-auto border-left-1 text-center">
-                                        <div class="toast" role="alert" aria-live="assertive" aria-atomic="true" data-animation="autohide">
-
+                                        <div class="toast mt-2" role="alert" aria-live="assertive" aria-atomic="true" data-animation="autohide">
+                                            <div class="toast-header">
+                                                <strong class="mr-auto">Email Accounts</strong>
+                                            </div>
                                             <div class="toast-body text-left">
-                                                File Manager
+                                                This feature lets you create and manage email accounts.
                                             </div>
                                         </div>
                                     </div>
 
                                     <div class="col-md-4 pb-2 my-auto border-left-1 text-center">
-                                        <div class="toast" role="alert" aria-live="assertive" aria-atomic="true" data-animation="autohide">
-
+                                        <div class="toast mt-2" role="alert" aria-live="assertive" aria-atomic="true" data-animation="autohide">
+                                            <div class="toast-header">
+                                                <strong class="mr-auto">Forwarders</strong>
+                                            </div>
                                             <div class="toast-body text-left">
-                                                Backup
+                                                Send a copy of any incoming email from one address to another
                                             </div>
                                         </div>
                                     </div>
 
                                     <div class="col-md-4 pb-2 my-auto border-left-1 text-center">
-                                        <div class="toast" role="alert" aria-live="assertive" aria-atomic="true" data-animation="autohide">
-
+                                        <div class="toast mt-2" role="alert" aria-live="assertive" aria-atomic="true" data-animation="autohide">
+                                            <div class="toast-header">
+                                                <strong class="mr-auto">Email Routing</strong>
+                                            </div>
                                             <div class="toast-body text-left">
-                                                Web Disk
+                                                Route a domain’s incoming mail to a specific server.
                                             </div>
                                         </div>
                                     </div>
 
                                     <div class="col-md-4 pb-2 my-auto border-left-1 text-center">
-                                        <div class="toast" role="alert" aria-live="assertive" aria-atomic="true" data-animation="autohide">
-
+                                        <div class="toast mt-2" role="alert" aria-live="assertive" aria-atomic="true" data-animation="autohide">
+                                            <div class="toast-header">
+                                                <strong class="mr-auto">Autoresponders</strong>
+                                            </div>
                                             <div class="toast-body text-left">
-                                                Git Version Control
+                                                Configure an email account to send automated emails. This can be useful if you are on vacation or unavailable.
                                             </div>
                                         </div>
                                     </div>
 
                                     <div class="col-md-4 pb-2 my-auto border-left-1 text-center">
-                                        <div class="toast" role="alert" aria-live="assertive" aria-atomic="true" data-animation="autohide">
+                                        <div class="toast mt-2" role="alert" aria-live="assertive" aria-atomic="true" data-animation="autohide">
+                                            <div class="toast-header">
+                                                <strong class="mr-auto">Default Address</strong>
+                                            </div>
                                             <div class="toast-body text-left">
-                                                Disck Usage
+                                                Catch any email that is sent to an invalid email address for your domain.
                                             </div>
                                         </div>
                                     </div>
 
                                     <div class="col-md-4 pb-2 my-auto border-left-1 text-center">
-                                        <div class="toast" role="alert" aria-live="assertive" aria-atomic="true" data-animation="autohide">
+                                        <div class="toast mt-2" role="alert" aria-live="assertive" aria-atomic="true" data-animation="autohide">
+                                            <div class="toast-header">
+                                                <strong class="mr-auto">Mailing Lists</strong>
+                                            </div>
                                             <div class="toast-body text-left">
-                                                File and Directory Restoration
+                                                Use a single address to send email to multiple email addresses.
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-4 pb-2 my-auto border-left-1 text-center">
+                                        <div class="toast mt-2" role="alert" aria-live="assertive" aria-atomic="true" data-animation="autohide">
+                                            <div class="toast-header">
+                                                <strong class="mr-auto">Track Delivery</strong>
+                                            </div>
+                                            <div class="toast-body text-left">
+                                                Review an email’s delivery route. This can be useful if you need to locate problems with email delivery.
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-4 pb-2 my-auto border-left-1 text-center">
+                                        <div class="toast mt-2" role="alert" aria-live="assertive" aria-atomic="true" data-animation="autohide">
+                                            <div class="toast-header">
+                                                <strong class="mr-auto">Global Email Filters</strong>
+                                            </div>
+                                            <div class="toast-body text-left">
+                                                Create and manage email filters for your main email account. Rules will be processed in the order shown below, from the top down.
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-4 pb-2 my-auto border-left-1 text-center">
+                                        <div class="toast mt-2" role="alert" aria-live="assertive" aria-atomic="true" data-animation="autohide">
+                                            <div class="toast-header">
+                                                <strong class="mr-auto">Email Filters</strong>
+                                            </div>
+                                            <div class="toast-body text-left">
+                                                Create and manage email filters for an email address that you specify. This can be useful if you want to avoid spam, redirect mail, or pipe messages to a program.
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-4 pb-2 my-auto border-left-1 text-center">
+                                        <div class="toast mt-2" role="alert" aria-live="assertive" aria-atomic="true" data-animation="autohide">
+                                            <div class="toast-header">
+                                                <strong class="mr-auto">Email Deliverability</strong>
+                                            </div>
+                                            <div class="toast-body text-left">
+                                                Use this interface to reduce the number of emails sent from this server that end up in spam folders.
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-4 pb-2 my-auto border-left-1 text-center">
+                                        <div class="toast mt-2" role="alert" aria-live="assertive" aria-atomic="true" data-animation="autohide">
+                                            <div class="toast-header">
+                                                <strong class="mr-auto">Address Importer</strong>
+                                            </div>
+                                            <div class="toast-body text-left">
+                                                This feature allows you to use 2 types of files to create multiple email address or email forwarders for your account simultaneously.
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-4 pb-2 my-auto border-left-1 text-center">
+                                        <div class="toast mt-2" role="alert" aria-live="assertive" aria-atomic="true" data-animation="autohide">
+                                            <div class="toast-header">
+                                                <strong class="mr-auto">Spam Filters</strong>
+                                            </div>
+                                            <div class="toast-body text-left">
+                                                Manage the settings for the spam filters (powered by Apache SpamAssassin™) for your email accounts.
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-4 pb-2 my-auto border-left-1 text-center">
+                                        <div class="toast mt-2" role="alert" aria-live="assertive" aria-atomic="true" data-animation="autohide">
+                                            <div class="toast-header">
+                                                <strong class="mr-auto">Encryption</strong>
+                                            </div>
+                                            <div class="toast-body text-left">
+                                                GnuPG is a publicly available encryption scheme that uses the “public key” approach. With GnuPG, messages are encrypted using a “public key” however, they can only be decrypted by a “private key”, which is retained by the intended recipient of the message.
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-4 pb-2 my-auto border-left-1 text-center">
+                                        <div class="toast mt-2" role="alert" aria-live="assertive" aria-atomic="true" data-animation="autohide">
+                                            <div class="toast-header">
+                                                <strong class="mr-auto">BoxTrapper</strong>
+                                            </div>
+                                            <div class="toast-body text-left">
+                                                BoxTrapper protects your inbox from spam by requiring all email senders not on your Whitelist reply to a verification email before you can receive their mail.
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-4 pb-2 my-auto border-left-1 text-center">
+                                        <div class="toast mt-2" role="alert" aria-live="assertive" aria-atomic="true" data-animation="autohide">
+                                            <div class="toast-header">
+                                                <strong class="mr-auto">Configure Greylisting</strong>
+                                            </div>
+                                            <div class="toast-body text-left">
+                                                Enable Greylisting on your domains. Use this feature to reduce incoming spam.
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-4 pb-2 my-auto border-left-1 text-center">
+                                        <div class="toast mt-2" role="alert" aria-live="assertive" aria-atomic="true" data-animation="autohide">
+                                            <div class="toast-header">
+                                                <strong class="mr-auto">Calendars and Contacts</strong>
+                                            </div>
+                                            <div class="toast-body text-left">
+                                                The Calendar and Contacts allows you to connect their calendar and contacts accounts to your cPanel accont.
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-4 pb-2 my-auto border-left-1 text-center">
+                                        <div class="toast mt-2" role="alert" aria-live="assertive" aria-atomic="true" data-animation="autohide">
+                                            <div class="toast-header">
+                                                <strong class="mr-auto">Email Disk Usage</strong>
+                                            </div>
+                                            <div class="toast-body text-left">
+                                                Email Disk Usage
                                             </div>
                                         </div>
                                     </div>
@@ -354,53 +543,180 @@
         </div>
         <!-- Cpanel Feature set -->
 
-        <!-- Cpanel Feature set Databases-->
+        <!-- Cpanel Feature set -->
         <div class="row">
             <div class="col-md-12">
                 <div class="card">
                     <div class="card-body">
                         <div class="row">
-                            <div class="col-md-2">
-                                <div class="icon icon-shape icon-shape-primary rounded-circle text-white">
-                                    <i class="ni ni ni-support-16 text-primary"></i>
-                                </div>
-                                <h3 class="mb-3 mt-3">DATABASES</h3>
 
+                            <div class="col-md-2">
+                                <h4>
+                                    <div class="icon icon-shape rounded-circle text-white">
+                                        <i class="fas fa-folder-open text-primary"></i>
+                                    </div> Files
+                                </h4>
                             </div>
+
                             <div class="col-md-10">
                                 <div class="row">
                                     <div class="col-md-4 pb-2 my-auto border-left-1 text-center">
-                                        <div class="toast" role="alert" aria-live="assertive" aria-atomic="true" data-animation="autohide">
-
+                                        <div class="toast mt-2" role="alert" aria-live="assertive" aria-atomic="true" data-animation="autohide">
+                                            <div class="toast-header">
+                                                <strong class="mr-auto">File Manager</strong>
+                                            </div>
                                             <div class="toast-body text-left">
-                                                PhpMyAdmin
+                                                cPanel organizes all the files in your account into folders. Use the File Manager interface to manage and edit your files.
                                             </div>
                                         </div>
                                     </div>
 
                                     <div class="col-md-4 pb-2 my-auto border-left-1 text-center">
-                                        <div class="toast" role="alert" aria-live="assertive" aria-atomic="true" data-animation="autohide">
-
+                                        <div class="toast mt-2" role="alert" aria-live="assertive" aria-atomic="true" data-animation="autohide">
+                                            <div class="toast-header">
+                                                <strong class="mr-auto">Images</strong>
+                                            </div>
                                             <div class="toast-body text-left">
-                                                Mysql Databases
+                                                Modify and manage images that are saved to your account.
                                             </div>
                                         </div>
                                     </div>
 
                                     <div class="col-md-4 pb-2 my-auto border-left-1 text-center">
-                                        <div class="toast" role="alert" aria-live="assertive" aria-atomic="true" data-animation="autohide">
-
+                                        <div class="toast mt-2" role="alert" aria-live="assertive" aria-atomic="true" data-animation="autohide">
+                                            <div class="toast-header">
+                                                <strong class="mr-auto">Directory Privacy</strong>
+                                            </div>
                                             <div class="toast-body text-left">
-                                                Mysql Databases Wizard
+                                                Set a password to protect certain directories of your account.
                                             </div>
                                         </div>
                                     </div>
 
                                     <div class="col-md-4 pb-2 my-auto border-left-1 text-center">
-                                        <div class="toast" role="alert" aria-live="assertive" aria-atomic="true" data-animation="autohide">
-
+                                        <div class="toast mt-2" role="alert" aria-live="assertive" aria-atomic="true" data-animation="autohide">
+                                            <div class="toast-header">
+                                                <strong class="mr-auto">Disk Usage</strong>
+                                            </div>
                                             <div class="toast-body text-left">
-                                                Remote Mysql
+                                                Monitor your account's available space with the Disk Usage feature.
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-4 pb-2 my-auto border-left-1 text-center">
+                                        <div class="toast mt-2" role="alert" aria-live="assertive" aria-atomic="true" data-animation="autohide">
+                                            <div class="toast-header">
+                                                <strong class="mr-auto">Web Disk</strong>
+                                            </div>
+                                            <div class="toast-body text-left">
+                                                Create a Web Disk account to manage, navigate, upload, and download the files on your web server.
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-4 pb-2 my-auto border-left-1 text-center">
+                                        <div class="toast mt-2" role="alert" aria-live="assertive" aria-atomic="true" data-animation="autohide">
+                                            <div class="toast-header">
+                                                <strong class="mr-auto">Backup</strong>
+                                            </div>
+                                            <div class="toast-body text-left">
+                                                Download a zipped copy of your entire site or a part of your site that you can save to your computer.
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-4 pb-2 my-auto border-left-1 text-center">
+                                        <div class="toast mt-2" role="alert" aria-live="assertive" aria-atomic="true" data-animation="autohide">
+                                            <div class="toast-header">
+                                                <strong class="mr-auto">Backup Wizard</strong>
+                                            </div>
+                                            <div class="toast-body text-left">
+                                                This feature allows you to download a compressed copy of all or part of your website.
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-4 pb-2 my-auto border-left-1 text-center">
+                                        <div class="toast mt-2" role="alert" aria-live="assertive" aria-atomic="true" data-animation="autohide">
+                                            <div class="toast-header">
+                                                <strong class="mr-auto">Git™ Version Control</strong>
+                                            </div>
+                                            <div class="toast-body text-left">
+                                                Create and manage Git™ repositories. You can use Git to maintain any set of files and track the history of changes from multiple editors (version control).
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!-- Cpanel Feature set -->
+
+        <!-- Cpanel Feature set -->
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="row">
+
+                            <div class="col-md-2">
+                                <h4>
+                                    <div class="icon icon-shape rounded-circle text-white">
+                                        <i class="fas fa-database text-primary"></i>
+                                    </div> Databases
+                                </h4>
+                            </div>
+
+                            <div class="col-md-10">
+                                <div class="row">
+                                    <div class="col-md-4 pb-2 my-auto border-left-1 text-center">
+                                        <div class="toast mt-2" role="alert" aria-live="assertive" aria-atomic="true" data-animation="autohide">
+                                            <div class="toast-header">
+                                                <strong class="mr-auto">phpMyAdmin</strong>
+                                            </div>
+                                            <div class="toast-body text-left">
+                                                Manage all your databases.
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-4 pb-2 my-auto border-left-1 text-center">
+                                        <div class="toast mt-2" role="alert" aria-live="assertive" aria-atomic="true" data-animation="autohide">
+                                            <div class="toast-header">
+                                                <strong class="mr-auto">MySQL® Databases</strong>
+                                            </div>
+                                            <div class="toast-body text-left">
+                                                Manage large amounts of information over the web easily. MySQL databases are necessary to run many web-based applications, such as bulletin boards, content management systems, and online shopping carts.
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-4 pb-2 my-auto border-left-1 text-center">
+                                        <div class="toast mt-2" role="alert" aria-live="assertive" aria-atomic="true" data-animation="autohide">
+                                            <div class="toast-header">
+                                                <strong class="mr-auto">MySQL® Database Wizard</strong>
+                                            </div>
+                                            <div class="toast-body text-left">
+                                                To use a database, you'll need to create it with MySQL® Database Wizard, Only MySQL Users (different than mail or other users) that have privileges to access a database can read from or write to that database.
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-4 pb-2 my-auto border-left-1 text-center">
+                                        <div class="toast mt-2" role="alert" aria-live="assertive" aria-atomic="true" data-animation="autohide">
+                                            <div class="toast-header">
+                                                <strong class="mr-auto">Remote MySQL®</strong>
+                                            </div>
+                                            <div class="toast-body text-left">
+                                                Add a specific domain name to allow visitors to connect to your MySQL databases.
                                             </div>
                                         </div>
                                     </div>
@@ -416,71 +732,308 @@
         </div>
         <!-- Cpanel Feature set -->
 
-        <!-- Cpanel Feature set Domains-->
+        <!-- Cpanel Feature set -->
         <div class="row">
             <div class="col-md-12">
                 <div class="card">
                     <div class="card-body">
                         <div class="row">
-                            <div class="col-md-2">
-                                <div class="icon icon-shape icon-shape-primary rounded-circle text-white">
-                                    <i class="ni ni ni-support-16 text-primary"></i>
-                                </div>
-                                <h3 class="mb-3 mt-3">DOMAINS</h3>
 
+                            <div class="col-md-2">
+                                <h4>
+                                    <div class="icon icon-shape rounded-circle text-white">
+                                        <i class="fas fa-chart-line text-primary"></i>
+                                    </div> Metrics
+                                </h4>
                             </div>
+
                             <div class="col-md-10">
                                 <div class="row">
                                     <div class="col-md-4 pb-2 my-auto border-left-1 text-center">
-                                        <div class="toast" role="alert" aria-live="assertive" aria-atomic="true" data-animation="autohide">
-
+                                        <div class="toast mt-2" role="alert" aria-live="assertive" aria-atomic="true" data-animation="autohide">
+                                            <div class="toast-header">
+                                                <strong class="mr-auto">Visitors</strong>
+                                            </div>
                                             <div class="toast-body text-left">
-                                                Domains
+                                                This function displays up to 1,000 of the most recent entries in the Apache log for a given domain’s web site.
                                             </div>
                                         </div>
                                     </div>
 
                                     <div class="col-md-4 pb-2 my-auto border-left-1 text-center">
-                                        <div class="toast" role="alert" aria-live="assertive" aria-atomic="true" data-animation="autohide">
-
+                                        <div class="toast mt-2" role="alert" aria-live="assertive" aria-atomic="true" data-animation="autohide">
+                                            <div class="toast-header">
+                                                <strong class="mr-auto">Errors</strong>
+                                            </div>
                                             <div class="toast-body text-left">
-                                                Addon Domains
+                                                The function displays the most recent entries in your website’s error logs in reverse chronological order.
                                             </div>
                                         </div>
                                     </div>
 
                                     <div class="col-md-4 pb-2 my-auto border-left-1 text-center">
-                                        <div class="toast" role="alert" aria-live="assertive" aria-atomic="true" data-animation="autohide">
-
+                                        <div class="toast mt-2" role="alert" aria-live="assertive" aria-atomic="true" data-animation="autohide">
+                                            <div class="toast-header">
+                                                <strong class="mr-auto">Creative Tim</strong>
+                                            </div>
                                             <div class="toast-body text-left">
-                                                Subdomains
+                                                Hello, world! This is a toast message.
                                             </div>
                                         </div>
                                     </div>
 
                                     <div class="col-md-4 pb-2 my-auto border-left-1 text-center">
-                                        <div class="toast" role="alert" aria-live="assertive" aria-atomic="true" data-animation="autohide">
-
+                                        <div class="toast mt-2" role="alert" aria-live="assertive" aria-atomic="true" data-animation="autohide">
+                                            <div class="toast-header">
+                                                <strong class="mr-auto">Bandwidth</strong>
+                                            </div>
                                             <div class="toast-body text-left">
-                                                Aliases
+                                                This function allows you to see the bandwidth usage for your site. It shows the current month’s bandwidth usage, as well as your total bandwidth usage.
                                             </div>
                                         </div>
                                     </div>
 
                                     <div class="col-md-4 pb-2 my-auto border-left-1 text-center">
-                                        <div class="toast" role="alert" aria-live="assertive" aria-atomic="true" data-animation="autohide">
-
+                                        <div class="toast mt-2" role="alert" aria-live="assertive" aria-atomic="true" data-animation="autohide">
+                                            <div class="toast-header">
+                                                <strong class="mr-auto">Raw Access</strong>
+                                            </div>
                                             <div class="toast-body text-left">
-                                                Redirects
+                                                Raw Access Logs allow you to see who has visited your website without displaying graphs, charts, or other graphics.
                                             </div>
                                         </div>
                                     </div>
 
                                     <div class="col-md-4 pb-2 my-auto border-left-1 text-center">
-                                        <div class="toast" role="alert" aria-live="assertive" aria-atomic="true" data-animation="autohide">
-
+                                        <div class="toast mt-2" role="alert" aria-live="assertive" aria-atomic="true" data-animation="autohide">
+                                            <div class="toast-header">
+                                                <strong class="mr-auto">Awstats</strong>
+                                            </div>
                                             <div class="toast-body text-left">
-                                                Dynamic DNS
+                                                Awstats produces visual statistics about visitors of your site.
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-4 pb-2 my-auto border-left-1 text-center">
+                                        <div class="toast mt-2" role="alert" aria-live="assertive" aria-atomic="true" data-animation="autohide">
+                                            <div class="toast-header">
+                                                <strong class="mr-auto">Analog Stats</strong>
+                                            </div>
+                                            <div class="toast-body text-left">
+                                                Analog produces a simple summary of all the people who have visited your site. It is fast and provides great lightweight statistics.
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-4 pb-2 my-auto border-left-1 text-center">
+                                        <div class="toast mt-2" role="alert" aria-live="assertive" aria-atomic="true" data-animation="autohide">
+                                            <div class="toast-header">
+                                                <strong class="mr-auto">Webalizer</strong>
+                                            </div>
+                                            <div class="toast-body text-left">
+                                                Webalizer is a complex stats program that produces a variety of charts and graphs about who has visited your site.
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-4 pb-2 my-auto border-left-1 text-center">
+                                        <div class="toast mt-2" role="alert" aria-live="assertive" aria-atomic="true" data-animation="autohide">
+                                            <div class="toast-header">
+                                                <strong class="mr-auto">Metrics Editor</strong>
+                                            </div>
+                                            <div class="toast-body text-left">
+                                                Hello, world! This is a toast message.
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!-- Cpanel Feature set -->
+
+        <!-- Cpanel Feature set -->
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="row">
+
+                            <div class="col-md-2">
+                                <h4>
+                                    <div class="icon icon-shape rounded-circle text-white">
+                                        <i class="fas fa-shield-alt text-primary"></i>
+                                    </div> Security
+                                </h4>
+                            </div>
+
+                            <div class="col-md-10">
+                                <div class="row">
+                                    <div class="col-md-4 pb-2 my-auto border-left-1 text-center">
+                                        <div class="toast mt-2" role="alert" aria-live="assertive" aria-atomic="true" data-animation="autohide">
+                                            <div class="toast-header">
+                                                <strong class="mr-auto">SSH Access</strong>
+                                            </div>
+                                            <div class="toast-body text-left">
+                                                SSH allows secure file transfer and remote logins over the internet. Your connection via SSH is encrypted allowing the secure connection.
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-4 pb-2 my-auto border-left-1 text-center">
+                                        <div class="toast mt-2" role="alert" aria-live="assertive" aria-atomic="true" data-animation="autohide">
+                                            <div class="toast-header">
+                                                <strong class="mr-auto">IP Blocker</strong>
+                                            </div>
+                                            <div class="toast-body text-left">
+                                                This feature will allow you to block a range of IP addresses to prevent them from accessing your site.
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-4 pb-2 my-auto border-left-1 text-center">
+                                        <div class="toast mt-2" role="alert" aria-live="assertive" aria-atomic="true" data-animation="autohide">
+                                            <div class="toast-header">
+                                                <strong class="mr-auto">SSL/TLS</strong>
+                                            </div>
+                                            <div class="toast-body text-left">
+                                                he SSL/TLS Manager will allow you to generate SSL certificates, certificate signing requests, and private keys.
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-4 pb-2 my-auto border-left-1 text-center">
+                                        <div class="toast mt-2" role="alert" aria-live="assertive" aria-atomic="true" data-animation="autohide">
+                                            <div class="toast-header">
+                                                <strong class="mr-auto">Manage API Tokens</strong>
+                                            </div>
+                                            <div class="toast-body text-left">
+                                                This feature lets you create and manage API tokens for cPanel API 2 and UAPI.
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-4 pb-2 my-auto border-left-1 text-center">
+                                        <div class="toast mt-2" role="alert" aria-live="assertive" aria-atomic="true" data-animation="autohide">
+                                            <div class="toast-header">
+                                                <strong class="mr-auto">Hotlink Protection</strong>
+                                            </div>
+                                            <div class="toast-body text-left">
+                                                Activate Hotlink protection to prevent other websites from directly linking to files on your website.
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-4 pb-2 my-auto border-left-1 text-center">
+                                        <div class="toast mt-2" role="alert" aria-live="assertive" aria-atomic="true" data-animation="autohide">
+                                            <div class="toast-header">
+                                                <strong class="mr-auto">Leech Protection</strong>
+                                            </div>
+                                            <div class="toast-body text-left">
+                                                Leech Protect allows you to prevent your users from giving out or publicly posting their passwords to a restricted area of your site.
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-4 pb-2 my-auto border-left-1 text-center">
+                                        <div class="toast mt-2" role="alert" aria-live="assertive" aria-atomic="true" data-animation="autohide">
+                                            <div class="toast-header">
+                                                <strong class="mr-auto">SSL/TLS Status</strong>
+                                            </div>
+                                            <div class="toast-body text-left">
+                                                You can use this interface to view the SSL status of your domains.
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!-- Cpanel Feature set -->
+
+        <!-- Cpanel Feature set -->
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="row">
+
+                            <div class="col-md-2">
+                                <h4>
+                                    <div class="icon icon-shape rounded-circle text-white">
+                                        <i class="fas fa-laptop-code text-primary"></i>
+                                    </div> Software
+                                </h4>
+                            </div>
+
+                            <div class="col-md-10">
+                                <div class="row">
+                                    <div class="col-md-4 pb-2 my-auto border-left-1 text-center">
+                                        <div class="toast mt-2" role="alert" aria-live="assertive" aria-atomic="true" data-animation="autohide">
+                                            <div class="toast-header">
+                                                <strong class="mr-auto">PHP PEAR Packages</strong>
+                                            </div>
+                                            <div class="toast-body text-left">
+                                                The PHP PEAR Packages interface allows you to search for and add PEAR packages to your website, or view all of your website's available PHP packages.
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-4 pb-2 my-auto border-left-1 text-center">
+                                        <div class="toast mt-2" role="alert" aria-live="assertive" aria-atomic="true" data-animation="autohide">
+                                            <div class="toast-header">
+                                                <strong class="mr-auto">Perl Modules</strong>
+                                            </div>
+                                            <div class="toast-body text-left">
+                                                This interface allows you to search for and install Perl modules from the CPAN repository to your website.
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-4 pb-2 my-auto border-left-1 text-center">
+                                        <div class="toast mt-2" role="alert" aria-live="assertive" aria-atomic="true" data-animation="autohide">
+                                            <div class="toast-header">
+                                                <strong class="mr-auto">Optimize Website</strong>
+                                            </div>
+                                            <div class="toast-body text-left">
+                                                This interface allows you to configure your server to automatically compress specified types of content when visitors access that content.
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-4 pb-2 my-auto border-left-1 text-center">
+                                        <div class="toast mt-2" role="alert" aria-live="assertive" aria-atomic="true" data-animation="autohide">
+                                            <div class="toast-header">
+                                                <strong class="mr-auto">MultiPHP Manager</strong>
+                                            </div>
+                                            <div class="toast-body text-left">
+                                                cPanel’s MultiPHP Manager interface allows you to easily manage your account’s PHP configuration. In this interface, you can manage the PHP version or pool option of any virtual host.
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-4 pb-2 my-auto border-left-1 text-center">
+                                        <div class="toast mt-2" role="alert" aria-live="assertive" aria-atomic="true" data-animation="autohide">
+                                            <div class="toast-header">
+                                                <strong class="mr-auto">MultiPHP INI Editor</strong>
+                                            </div>
+                                            <div class="toast-body text-left">
+                                                This interface allows you to configure your PHP settings.
                                             </div>
                                         </div>
                                     </div>
@@ -496,74 +1049,100 @@
         </div>
         <!-- Cpanel Feature set -->
 
-        <!-- Cpanel Feature set Security-->
+        <!-- Cpanel Feature set -->
         <div class="row">
             <div class="col-md-12">
                 <div class="card">
                     <div class="card-body">
                         <div class="row">
-                            <div class="col-md-2">
-                                <div class="icon icon-shape icon-shape-primary rounded-circle text-white">
-                                    <i class="ni ni ni-support-16 text-primary"></i>
-                                </div>
-                                <h3 class="mb-3 mt-3">SECURITY</h3>
 
+                            <div class="col-md-2">
+                                <h4>
+                                    <div class="icon icon-shape rounded-circle text-white">
+                                        <i class="fas fa-gears text-primary"></i>
+                                    </div> Advanced
+                                </h4>
                             </div>
+
                             <div class="col-md-10">
                                 <div class="row">
                                     <div class="col-md-4 pb-2 my-auto border-left-1 text-center">
-                                        <div class="toast" role="alert" aria-live="assertive" aria-atomic="true" data-animation="autohide">
-
+                                        <div class="toast mt-2" role="alert" aria-live="assertive" aria-atomic="true" data-animation="autohide">
+                                            <div class="toast-header">
+                                                <strong class="mr-auto">Terminal</strong>
+                                            </div>
                                             <div class="toast-body text-left">
-                                                SSH Access
+                                                This interface provides command line access to your account on the server.
                                             </div>
                                         </div>
                                     </div>
 
                                     <div class="col-md-4 pb-2 my-auto border-left-1 text-center">
-                                        <div class="toast" role="alert" aria-live="assertive" aria-atomic="true" data-animation="autohide">
-
+                                        <div class="toast mt-2" role="alert" aria-live="assertive" aria-atomic="true" data-animation="autohide">
+                                            <div class="toast-header">
+                                                <strong class="mr-auto">Cron Jobs</strong>
+                                            </div>
                                             <div class="toast-body text-left">
-                                                Ip Blocker
+                                                Cron jobs allow you to automate certain commands or scripts on your site. You can set a command or script to run at a specific time every day, week, etc.
                                             </div>
                                         </div>
                                     </div>
 
                                     <div class="col-md-4 pb-2 my-auto border-left-1 text-center">
-                                        <div class="toast" role="alert" aria-live="assertive" aria-atomic="true" data-animation="autohide">
-
+                                        <div class="toast mt-2" role="alert" aria-live="assertive" aria-atomic="true" data-animation="autohide">
+                                            <div class="toast-header">
+                                                <strong class="mr-auto">Track DNS</strong>
+                                            </div>
                                             <div class="toast-body text-left">
-                                                SSL/TLS
+                                                This interface contains tools to help you retrieve network information.
                                             </div>
                                         </div>
                                     </div>
 
                                     <div class="col-md-4 pb-2 my-auto border-left-1 text-center">
-                                        <div class="toast" role="alert" aria-live="assertive" aria-atomic="true" data-animation="autohide">
-
+                                        <div class="toast mt-2" role="alert" aria-live="assertive" aria-atomic="true" data-animation="autohide">
+                                            <div class="toast-header">
+                                                <strong class="mr-auto">Indexes</strong>
+                                            </div>
                                             <div class="toast-body text-left">
-                                                Leech Protection
+                                                The “Index Manager” allows you to customize the way a directory appears when no index files reside in a directory.
                                             </div>
                                         </div>
                                     </div>
 
                                     <div class="col-md-4 pb-2 my-auto border-left-1 text-center">
-                                        <div class="toast" role="alert" aria-live="assertive" aria-atomic="true" data-animation="autohide">
-
+                                        <div class="toast mt-2" role="alert" aria-live="assertive" aria-atomic="true" data-animation="autohide">
+                                            <div class="toast-header">
+                                                <strong class="mr-auto">Error Pages</strong>
+                                            </div>
                                             <div class="toast-body text-left">
-                                                Imunify360
+                                                Error pages inform visitors about problems when they attempt to access your site. Each type of problem has its own code.
                                             </div>
                                         </div>
                                     </div>
 
                                     <div class="col-md-4 pb-2 my-auto border-left-1 text-center">
-                                        <div class="toast" role="alert" aria-live="assertive" aria-atomic="true" data-animation="autohide">
-
+                                        <div class="toast mt-2" role="alert" aria-live="assertive" aria-atomic="true" data-animation="autohide">
+                                            <div class="toast-header">
+                                                <strong class="mr-auto">Apache Handlers</strong>
+                                            </div>
                                             <div class="toast-body text-left">
-                                                Manage API Tokens
+                                                Apache handlers control how your site’s Apache web server software manages certain file types and file extensions.
                                             </div>
                                         </div>
                                     </div>
+
+                                    <div class="col-md-4 pb-2 my-auto border-left-1 text-center">
+                                        <div class="toast mt-2" role="alert" aria-live="assertive" aria-atomic="true" data-animation="autohide">
+                                            <div class="toast-header">
+                                                <strong class="mr-auto">MIME Types</strong>
+                                            </div>
+                                            <div class="toast-body text-left">
+                                                MIME types relay information to the browser about how to handle file extensions.
+                                            </div>
+                                        </div>
+                                    </div>
+
 
                                 </div>
                             </div>
@@ -576,151 +1155,74 @@
         </div>
         <!-- Cpanel Feature set -->
 
-        <!-- Cpanel Feature set Software-->
-        <div class="row">
-            <div class="col-md-12">
-                <div class="card">
-                    <div class="card-body">
-                        <div class="row">
-                            <div class="col-md-2">
-                                <div class="icon icon-shape icon-shape-primary rounded-circle text-white">
-                                    <i class="ni ni ni-support-16 text-primary"></i>
-                                </div>
-                                <h3 class="mb-3 mt-3">SOFTWARE</h3>
-
-                            </div>
-                            <div class="col-md-10">
-                                <div class="row">
-                                    <div class="col-md-4 pb-2 my-auto border-left-1 text-center">
-                                        <div class="toast" role="alert" aria-live="assertive" aria-atomic="true" data-animation="autohide">
-
-                                            <div class="toast-body text-left">
-                                                Cloudflare
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-md-4 pb-2 my-auto border-left-1 text-center">
-                                        <div class="toast" role="alert" aria-live="assertive" aria-atomic="true" data-animation="autohide">
-
-                                            <div class="toast-body text-left">
-                                                Wordpress Manager
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-md-4 pb-2 my-auto border-left-1 text-center">
-                                        <div class="toast" role="alert" aria-live="assertive" aria-atomic="true" data-animation="autohide">
-
-                                            <div class="toast-body text-left">
-                                                MultiPHP
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-md-4 pb-2 my-auto border-left-1 text-center">
-                                        <div class="toast" role="alert" aria-live="assertive" aria-atomic="true" data-animation="autohide">
-
-                                            <div class="toast-body text-left">
-                                                Site Software
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-md-4 pb-2 my-auto border-left-1 text-center">
-                                        <div class="toast" role="alert" aria-live="assertive" aria-atomic="true" data-animation="autohide">
-
-                                            <div class="toast-body text-left">
-                                                Softaculous Apps Installer
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-md-4 pb-2 my-auto border-left-1 text-center">
-                                        <div class="toast" role="alert" aria-live="assertive" aria-atomic="true" data-animation="autohide">
-
-                                            <div class="toast-body text-left">
-                                                Perl Modules
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
         <!-- Cpanel Feature set -->
-
-        <!-- Cpanel Feature set Advanced-->
         <div class="row">
             <div class="col-md-12">
                 <div class="card">
                     <div class="card-body">
                         <div class="row">
-                            <div class="col-md-2">
-                                <div class="icon icon-shape icon-shape-primary rounded-circle text-white">
-                                    <i class="ni ni ni-support-16 text-primary"></i>
-                                </div>
-                                <h3 class="mb-3 mt-3">ADVANCED</h3>
 
+                            <div class="col-md-2">
+                                <h4>
+                                    <div class="icon icon-shape rounded-circle text-white">
+                                        <i class="fas fa-sliders text-primary"></i>
+                                    </div> Preferences
+                                </h4>
                             </div>
+
                             <div class="col-md-10">
                                 <div class="row">
                                     <div class="col-md-4 pb-2 my-auto border-left-1 text-center">
-                                        <div class="toast" role="alert" aria-live="assertive" aria-atomic="true" data-animation="autohide">
-
+                                        <div class="toast mt-2" role="alert" aria-live="assertive" aria-atomic="true" data-animation="autohide">
+                                            <div class="toast-header">
+                                                <strong class="mr-auto">Password & Security</strong>
+                                            </div>
                                             <div class="toast-body text-left">
-                                                LiteSpeed Web Cache Manager
+                                                This interface allows you to update your account's password.
                                             </div>
                                         </div>
                                     </div>
 
                                     <div class="col-md-4 pb-2 my-auto border-left-1 text-center">
-                                        <div class="toast" role="alert" aria-live="assertive" aria-atomic="true" data-animation="autohide">
-
+                                        <div class="toast mt-2" role="alert" aria-live="assertive" aria-atomic="true" data-animation="autohide">
+                                            <div class="toast-header">
+                                                <strong class="mr-auto">Change Language</strong>
+                                            </div>
                                             <div class="toast-body text-left">
-                                                Cron Jobs
+                                                This function allows you to change the language displayed in your cPanel interface.
                                             </div>
                                         </div>
                                     </div>
 
                                     <div class="col-md-4 pb-2 my-auto border-left-1 text-center">
-                                        <div class="toast" role="alert" aria-live="assertive" aria-atomic="true" data-animation="autohide">
-
+                                        <div class="toast mt-2" role="alert" aria-live="assertive" aria-atomic="true" data-animation="autohide">
+                                            <div class="toast-header">
+                                                <strong class="mr-auto">Change Style</strong>
+                                            </div>
                                             <div class="toast-body text-left">
-                                                Track DNS
+                                                Use this interface to choose a style in order to customize the cPanel interface's appearance.
                                             </div>
                                         </div>
                                     </div>
 
                                     <div class="col-md-4 pb-2 my-auto border-left-1 text-center">
-                                        <div class="toast" role="alert" aria-live="assertive" aria-atomic="true" data-animation="autohide">
-
+                                        <div class="toast mt-2" role="alert" aria-live="assertive" aria-atomic="true" data-animation="autohide">
+                                            <div class="toast-header">
+                                                <strong class="mr-auto">Contact Information</strong>
+                                            </div>
                                             <div class="toast-body text-left">
-                                                Indexes
+                                                Use this interface to store contact information for your cPanel account and to set your contact preferences.
                                             </div>
                                         </div>
                                     </div>
 
                                     <div class="col-md-4 pb-2 my-auto border-left-1 text-center">
-                                        <div class="toast" role="alert" aria-live="assertive" aria-atomic="true" data-animation="autohide">
-
-                                            <div class="toast-body text-left">
-                                                Error Pages
+                                        <div class="toast mt-2" role="alert" aria-live="assertive" aria-atomic="true" data-animation="autohide">
+                                            <div class="toast-header">
+                                                <strong class="mr-auto">User Manager</strong>
                                             </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-md-4 pb-2 my-auto border-left-1 text-center">
-                                        <div class="toast" role="alert" aria-live="assertive" aria-atomic="true" data-animation="autohide">
-
                                             <div class="toast-body text-left">
-                                                MIME Types
+                                                This interface allows you to manage subaccounts. Subaccounts use the same login and password information for email, FTP, and Web Disk services
                                             </div>
                                         </div>
                                     </div>
