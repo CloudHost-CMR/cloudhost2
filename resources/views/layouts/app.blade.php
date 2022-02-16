@@ -1331,151 +1331,150 @@
                         <div class="card">
                             <div class="card-header" id="headingOne">
                                 <h5 class="mb-0">
-                                    <button class="btn btn-link w-100 text-primary text-left collapsed" type="button"
-                                            data-toggle="collapse" data-target="#collapseOne" aria-expanded="false"
-                                            aria-controls="collapseOne">
-                                        {{ __('How do I order?') }}
+                                    <button class="btn btn-link w-100 text-primary text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                        What is Shared Web hosting?
                                         <i class="ni ni-bold-down float-right pt-1"></i>
                                     </button>
                                 </h5>
                             </div>
-                            <div id="collapseOne" class="collapse" aria-labelledby="headingOne"
-                                 data-parent="#accordionExample">
+                            <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
                                 <div class="card-body opacity-8">
-                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
-                                    richardson ad squid. 3
-                                    wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa
-                                    nesciunt laborum
-                                    eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin
-                                    coffee nulla
-                                    assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes
-                                    anderson cred nesciunt
-                                    sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft
-                                    beer
-                                    farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them
-                                    accusamus
-                                    labore sustainable VHS.
+                                    In Shared Web Hosting, multiple clients are hosted on a single server i.e. the clients share the server's resources. This helps reduce the cost, since the cost of the server and its resources are spread over all the clients/packages hosted on the server. Shared Hosting is perfect for personal websites, small and mid-sized businesses that do not require all the resources of a server.
                                 </div>
                             </div>
                         </div>
                         <div class="card">
                             <div class="card-header" id="headingTwo">
                                 <h5 class="mb-0">
-                                    <button class="btn btn-link w-100 text-primary text-left collapsed" type="button"
-                                            data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false"
-                                            aria-controls="collapseTwo">
-                                        {{ __('How can i make the payment?') }}
+                                    <button class="btn btn-link w-100 text-primary text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        Can I host multiple Web sites within one Shared Hosting plan?
                                         <i class="ni ni-bold-down float-right pt-1"></i>
                                     </button>
                                 </h5>
                             </div>
-                            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
-                                 data-parent="#accordionExample"
-                                 style="">
+                            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample" style="">
                                 <div class="card-body opacity-8">
-                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
-                                    richardson ad squid. 3
-                                    wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa
-                                    nesciunt laborum
-                                    eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin
-                                    coffee nulla
-                                    assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes
-                                    anderson cred nesciunt
-                                    sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft
-                                    beer
-                                    farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them
-                                    accusamus
-                                    labore sustainable VHS.
+                                    Yes! Our shared hosting plans allow you to host more than one Website, by adding secondary domains through your hosting control panel i.e. cPanel.
                                 </div>
                             </div>
                         </div>
                         <div class="card">
                             <div class="card-header" id="headingThree">
                                 <h5 class="mb-0">
-                                    <button class="btn btn-link w-100 text-primary text-left collapsed" type="button"
-                                            data-toggle="collapse" data-target="#collapseThree" aria-expanded="false"
-                                            aria-controls="collapseThree">
-                                        {{ __('How much time does it take to receive the order?') }}
+                                    <button class="btn btn-link w-100 text-primary text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                        Is there a Money Back Guarantee?
                                         <i class="ni ni-bold-down float-right pt-1"></i>
                                     </button>
                                 </h5>
                             </div>
-                            <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
-                                 data-parent="#accordionExample">
+                            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
                                 <div class="card-body opacity-8">
-                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
-                                    richardson ad squid. 3
-                                    wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa
-                                    nesciunt laborum
-                                    eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin
-                                    coffee nulla
-                                    assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes
-                                    anderson cred nesciunt
-                                    sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft
-                                    beer
-                                    farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them
-                                    accusamus
-                                    labore sustainable VHS.
+                                    Yes, we offer a 100% Risk Free, 30 day Money Back Guarantee.
                                 </div>
                             </div>
                         </div>
                         <div class="card">
                             <div class="card-header" id="headingFour">
                                 <h5 class="mb-0">
-                                    <button class="btn btn-link w-100 text-primary text-left" type="button"
-                                            data-toggle="collapse"
-                                            data-target="#collapseFour" aria-controls="collapseFour">
-                                        {{ __('Can I resell the products?') }}
+                                    <button class="btn btn-link w-100 text-primary text-left" type="button" data-toggle="collapse" data-target="#collapseFour" aria-controls="collapseFour">
+                                        Is Email hosting included in my package?
                                         <i class="ni ni-bold-down float-right pt-1"></i>
                                     </button>
                                 </h5>
                             </div>
-                            <div id="collapseFour" class="collapse" aria-labelledby="headingFour"
-                                 data-parent="#accordionExample">
+                            <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
                                 <div class="card-body opacity-8">
-                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
-                                    richardson ad squid. 3
-                                    wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa
-                                    nesciunt laborum
-                                    eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin
-                                    coffee nulla
-                                    assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes
-                                    anderson cred nesciunt
-                                    sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft
-                                    beer
-                                    farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them
-                                    accusamus
-                                    labore sustainable VHS.
+                                    Yes, all our Hosting packages come with Unlimited Email Hosting.
                                 </div>
                             </div>
                         </div>
                         <div class="card">
                             <div class="card-header" id="headingFifth">
                                 <h5 class="mb-0">
-                                    <button class="btn btn-link w-100 text-primary text-left" type="button"
-                                            data-toggle="collapse"
-                                            data-target="#collapseFifth" aria-controls="collapseFifth">
-                                        {{ __('Where do I find the shipping details?') }}
+                                    <button class="btn btn-link w-100 text-primary text-left" type="button" data-toggle="collapse" data-target="#collapseFifth" aria-controls="collapseFifth">
+                                        Can I upgrade to a higher plan?
                                         <i class="ni ni-bold-down float-right pt-1"></i>
                                     </button>
                                 </h5>
                             </div>
-                            <div id="collapseFifth" class="collapse" aria-labelledby="headingFifth"
-                                 data-parent="#accordionExample">
+                            <div id="collapseFifth" class="collapse" aria-labelledby="headingFifth" data-parent="#accordionExample">
                                 <div class="card-body opacity-8">
-                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
-                                    richardson ad squid. 3
-                                    wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa
-                                    nesciunt laborum
-                                    eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin
-                                    coffee nulla
-                                    assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes
-                                    anderson cred nesciunt
-                                    sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft
-                                    beer
-                                    farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them
-                                    accusamus
-                                    labore sustainable VHS.
+                                    Yes, you can easily upgrade to one of our higher plans at any time.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="headingSix">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-link w-100 text-primary text-left" type="button" data-toggle="collapse" data-target="#collapseSix" aria-controls="headingSix">
+                                        Is my data safe? Do you take backups?
+                                        <i class="ni ni-bold-down float-right pt-1"></i>
+                                    </button>
+                                </h5>
+                            </div>
+                            <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordionExample">
+                                <div class="card-body opacity-8">
+                                    Yes, your data is a 100% secure and we have periodic general server Backup. However you can backup manually from your cPanel. The Ultimate Plan Provides automated Backups for you.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="headingSeven">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-link w-100 text-primary text-left" type="button" data-toggle="collapse" data-target="#collapseSeven" aria-controls="collapseSeven">
+                                        Do you include protection from viruses?
+                                        <i class="ni ni-bold-down float-right pt-1"></i>
+                                    </button>
+                                </h5>
+                            </div>
+                            <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordionExample">
+                                <div class="card-body opacity-8">
+                                    Yes, all our servers are protected by Clam AV.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="headingEight">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-link w-100 text-primary text-left" type="button" data-toggle="collapse" data-target="#collapseEight" aria-controls="collapseEight">
+                                        Can I divide my Shared Hosting package and resell it?
+                                        <i class="ni ni-bold-down float-right pt-1"></i>
+                                    </button>
+                                </h5>
+                            </div>
+                            <div id="collapseEight" class="collapse" aria-labelledby="headingEight" data-parent="#accordionExample">
+                                <div class="card-body opacity-8">
+                                    While a Shared Hosting package cannot be used for this purpose, you can easily resell custom packages with our Reseller Hosting. Contact us for more details.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="headingNine">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-link w-100 text-primary text-left" type="button" data-toggle="collapse" data-target="#collapseNine" aria-controls="collapseNine">
+                                        Do you offer SSH access?
+                                        <i class="ni ni-bold-down float-right pt-1"></i>
+                                    </button>
+                                </h5>
+                            </div>
+                            <div id="collapseNine" class="collapse" aria-labelledby="headingNine" data-parent="#accordionExample">
+                                <div class="card-body opacity-8">
+                                    Yes, we provide SSH access to your domain. Because this is a shared environment, you will not get root access. However, you will be able to achieve most of your requirements by having the rights to access only the files relevant to your domain.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="headingTen">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-link w-100 text-primary text-left" type="button" data-toggle="collapse" data-target="#collapseTen" aria-controls="collapseTen">
+                                        Who do I get in touch with if I need help?
+                                        <i class="ni ni-bold-down float-right pt-1"></i>
+                                    </button>
+                                </h5>
+                            </div>
+                            <div id="collapseTen" class="collapse" aria-labelledby="headingTen" data-parent="#accordionExample">
+                                <div class="card-body opacity-8">
+                                    Our Support team is always at hand to assist you. Contact us anytime.
                                 </div>
                             </div>
                         </div>
