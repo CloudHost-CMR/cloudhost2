@@ -78,6 +78,7 @@
             padding: 0 !important;
         }
     </style>
+    <link rel="icon" type="image/png" href="{{ asset('assets/images/logo.png') }}">
 
 
     <script src="https://code.jquery.com/jquery-3.5.1.js"

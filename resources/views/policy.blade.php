@@ -17,6 +17,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
     <meta http-equiv="cleartype" content="on">
+    <link rel="icon" type="image/png" href="{{ asset('assets/images/logo.png') }}">
 
     <!-- Responsive and mobile friendly stuff -->
     <meta name="HandheldFriendly" content="True">
