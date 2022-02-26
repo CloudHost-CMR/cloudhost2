@@ -40,9 +40,7 @@
         <link rel="stylesheet"
               href="https://fonts.googleapis.com/css?family=Lato%3A300%2C700%7CLato%3A700%2C400%7COpen%20Sans%3A400&#038;subset=latin&#038;display=swap"/>
     </noscript>
-    <link rel="stylesheet"
-          href="https://globexcamhost.com/wp-content/cache/min/1/1fdc2b195eaa9200a4dc11e09c1ee473.css" media="all"
-          data-minify="1"/>
+    <link rel="stylesheet" href="{{ asset('assets/css/privacy.css') }}"/>
     <meta name="description"
           content="Agreement between CLOUDHOST® and business or individual. The client/individual is subject to the following terms and conditions."/>
     <meta name="robots" content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"/>
