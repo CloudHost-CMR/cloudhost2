@@ -1704,17 +1704,17 @@
                     <h4 class="mt-3 text-light">{{ __('Resources') }}</h4>
                     <ul>
                         <li class="nav-item">
-                            <a href="#">
+                            <a href="{{ route('privacy-policy') }}">
                                 {{ __('Privacy statment') }}
                             </a>
                         </li>
+{{--                        <li class="nav-item">--}}
+{{--                            <a href="#">--}}
+{{--                                {{ __('Cookies Policy') }}--}}
+{{--                            </a>--}}
+{{--                        </li>--}}
                         <li class="nav-item">
-                            <a href="#">
-                                {{ __('Cookies Policy') }}
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#">
+                            <a href="{{ route('terms-conditions') }}">
                                 {{ __('Terms of service') }}
                             </a>
                         </li>

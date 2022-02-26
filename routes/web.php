@@ -25,4 +25,7 @@ Route::group(
     Route::get('/home', [HomeController::class, 'index'])->name('home');
     Route::get('/shared-hosting', [HomeController::class, 'sharedHostingView'])->name('shared-hosting');
     Route::get('/all-features', [HomeController::class, 'allFeatureView'])->name('all-features');
+
+    Route::get('/privacy-policy',[HomeController::class,'privacyPolicy'])->name('privacy-policy');
+    Route::get('/terms-conditions',[HomeController::class,'termsCondition'])->name('terms-conditions');
 });
