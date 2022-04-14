@@ -51,3 +51,5 @@ jobs:
           username: ${{ secrets.ftp_username }}
           password: ${{ secrets.ftp_password }}
           server-dir: /public_html/staging/
+          protocol: ftps
+            port:  21
