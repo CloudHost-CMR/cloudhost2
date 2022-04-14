@@ -110,8 +110,8 @@
 
     <header id="masthead" class="site-header row" role="banner">
         <div class="col grid_5_of_12 site-title">
-            <a href="https://CLOUDHOST.cm/" title="CLOUDHOST" rel="home">
-                <img src="{{ asset('assets/images/CLOUDHOST2-03.png') }}"/>
+            <a href="{{ url('/') }}" title="CLOUDHOST" rel="home">
+                <img src="{{ asset('assets/images/cloudhost2-03.png') }}"/>
             </a>
         </div> <!-- /.col.grid_5_of_12 -->
     </header> <!-- /#masthead.site-header.row -->
