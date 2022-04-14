@@ -21,10 +21,12 @@ class HomeController extends Controller
         return view('cloudhost.all-feature');
     }
 
+
     public function privacyPolicy()
     {
         return view('policy');
     }
+
 
     public function termsCondition()
     {
