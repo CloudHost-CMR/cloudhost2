@@ -1618,7 +1618,7 @@
 @yield('cta')
 
 <div id="whatsapp-widget" class="ww-right ww-normal ww-yes"><a target="_blank"
-                                                               href="https://wa.me/237670858799/?text=Hi ,"
+                                                               href="https://wa.me/237695476763/?text=Hi ,"
                                                                class="ww-text">{{ __('Need Helps ? Message Us') }}
         <div class="ww-arrow"></div>
     </a>
@@ -1704,17 +1704,17 @@
                     <h4 class="mt-3 text-light">{{ __('Resources') }}</h4>
                     <ul>
                         <li class="nav-item">
-                            <a href="#">
+                            <a href="{{ route('privacy-policy') }}">
                                 {{ __('Privacy statment') }}
                             </a>
                         </li>
+{{--                        <li class="nav-item">--}}
+{{--                            <a href="#">--}}
+{{--                                {{ __('Cookies Policy') }}--}}
+{{--                            </a>--}}
+{{--                        </li>--}}
                         <li class="nav-item">
-                            <a href="#">
-                                {{ __('Cookies Policy') }}
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#">
+                            <a href="{{ route('terms-conditions') }}">
                                 {{ __('Terms of service') }}
                             </a>
                         </li>
@@ -1738,7 +1738,7 @@
                     <h4 class="mt-3 text-light">{{ __('Contact') }}</h4>
                     <ul>
                         <li class="nav-item"><a target="_blank" href="#">{{ __('Phone number') }}: <br>
-                                +237672394873</a></li>
+                                +237695476763</a></li>
                         <li class="nav-item"><a target="_blank" href="#">{{ __('Email Support') }}: <br>
                                 support@cloudhost.cm</a></li>
                     </ul>
