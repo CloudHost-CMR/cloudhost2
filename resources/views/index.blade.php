@@ -44,19 +44,19 @@
                         <div class="card-body">
                             <h6 class="text-muted text-center">
                                 <span
-                                    class="badge badge-pill badge-md badge-success mr-1 text-uppercase">{{ __('Save') }} 50%</span>
+                                    class="badge badge-pill badge-md badge-success mr-1 text-uppercase">{{ __('Save') }} 70%</span>
                                 <span>{{ __('First') .' '. __('Year') }}</span>
                             </h6>
                             <div class="display-2 d-flex justify-content-center "><span
-                                    class="font-weight-bold ">{{ number_format(2500) }}</span> <span
+                                    class="font-weight-bold ">{{ number_format(env('BUSINESS_PACKAGE_PRICE')) }}</span> <span
                                     class="font-weight-400 pt-3 text-left"
                                     style="font-size: 18px; line-height: 1;">XAF <br/>
-                  {{ __('Monthly') }}</span></div>
+                  {{ __('Year') }}</span></div>
                             <!-- <span>per Month</span> -->
                             <ul class="list-unstyled my-2">
                                 <li class="align-items-center">
-                                    {{ __('Renews').' '. __('at') }} <strong>{{ number_format(5000) }} <sup
-                                            style="font-size: 13px;">XAF</sup></strong> {{ __('Monthly') }}
+                                    {{ __('Renews').' '. __('at') }} <strong>{{ number_format(env('BUSINESS_PACKAGE_PRICE_RENEW')) }} <sup
+                                            style="font-size: 13px;">XAF</sup></strong> {{ __('Year') }}
                                 </li>
                                 <a target="_blank"
                                    href="{{ env('BUSINESS_PACKAGE_LINK') }}={{ (LaravelLocalization::getCurrentLocaleNative()) === 'English' ? 'English' : 'French' }}"
@@ -201,15 +201,15 @@
                                 <span>{{ __('First') .' '. __('Year') }}</span>
                             </h6>
                             <div class="display-2 d-flex justify-content-center "><span
-                                    class="font-weight-bold ">{{ number_format(6250) }}</span> <span
+                                    class="font-weight-bold ">{{ number_format(env('PREMIUM_PACKAGE_PRICE')) }}</span> <span
                                     class="font-weight-400 pt-3 text-left"
                                     style="font-size: 18px; line-height: 1;">XAF <br/>
-                  {{ __('Monthly') }}</span></div>
+                  {{ __('Year') }}</span></div>
                             <!-- <span>per Month</span> -->
                             <ul class="list-unstyled my-2">
                                 <li class="align-items-center">
-                                    {{ __('Renews').' '. __('at') }} <strong>{{ number_format(12500) }} <sup
-                                            style="font-size: 13px;">XAF</sup></strong> {{ __('Monthly') }}
+                                    {{ __('Renews').' '. __('at') }} <strong>{{ number_format(env('PREMIUM_PACKAGE_PRICE_RENEW')) }} <sup
+                                            style="font-size: 13px;">XAF</sup></strong> {{ __('Year') }}
                                 </li>
                                 <a target="_blank"
                                    href="{{ env('PREMIUM_PACKAGE_LINK') }}={{ (LaravelLocalization::getCurrentLocaleNative()) === 'English' ? 'English' : 'French' }}"
@@ -354,14 +354,14 @@
                                 <span>{{ __('First') .' '. __('Year') }}</span>
                             </h6>
                             <div class="display-2 d-flex justify-content-center "><span
-                                    class="font-weight-bold ">{{ number_format(12500) }}</span> <span
+                                    class="font-weight-bold ">{{ number_format(env('ULTIMATE_PACKAGE_PRICE')) }}</span> <span
                                     class="font-weight-400 pt-3 text-left"
                                     style="font-size: 18px; line-height: 1;">XAF <br/>
-                  {{ __('Monthly') }}</span></div>
+                  {{ __('Year') }}</span></div>
                             <ul class="list-unstyled my-2">
                                 <li class="align-items-center">
-                                    {{ __('Renews').' '. __('at') }} <strong>{{ number_format(25000) }} <sup
-                                            style="font-size: 13px;">XAF</sup></strong> {{ __('Monthly') }}
+                                    {{ __('Renews').' '. __('at') }} <strong>{{ number_format(env('ULTIMATE_PACKAGE_PRICE_RENEW')) }} <sup
+                                            style="font-size: 13px;">XAF</sup></strong> {{ __('Year') }}
                                 </li>
                                 <a target="_blank"
                                    href="{{ env('ULTIMATE_PACKAGE_LINK') }}={{ (LaravelLocalization::getCurrentLocaleNative()) === 'English' ? 'English' : 'French' }}"
@@ -611,20 +611,20 @@
                                 </div>
                                 <div class="card-body">
                                     <h6 class="text-muted text-center">
-                                        <span class="badge badge-pill badge-md badge-success mr-1 text-uppercase">{{ __('Save') }} 50%</span>
+                                        <span class="badge badge-pill badge-md badge-success mr-1 text-uppercase">{{ __('Save') }} 70%</span>
                                         <span>{{ __('First') .' '.__('Year') }}</span>
                                     </h6>
                                     <div class="display-2 d-flex justify-content-center "><span
-                                            class="font-weight-bold ">{{ number_format(2500) }}</span>
+                                            class="font-weight-bold ">{{ number_format(env('BUSINESS_PACKAGE_PRICE')) }}</span>
                                         <span class="font-weight-400 pt-3 text-left"
                                               style="font-size: 18px; line-height: 1;">XAF <br/>
-                      {{ __('Monthly') }}</span></div>
+                      {{ __('Year') }}</span></div>
                                     <!-- <span>per Month</span> -->
                                     <ul class="list-unstyled my-2">
                                         <li class="align-items-center">
-                                            {{ __('Renews') .' '.  __('at') }}<strong> {{ number_format(5000) }} <sup
+                                            {{ __('Renews') .' '.  __('at') }}<strong> {{ number_format(env('BUSINESS_PACKAGE_PRICE_RENEW')) }} <sup
                                                     style="font-size: 13px;">XAF</sup></strong>
-                                            monthly
+                                            {{ __('Year') }}
                                         </li>
                                         <a href="{{ env('BUSINESS_PACKAGE_LINK') }}={{ (LaravelLocalization::getCurrentLocaleNative()) === 'English' ? 'English' : 'French' }}"
                                            class="btn btn-primary btn-round btn-lg w-100">{{ __('Order Now') }}</a>
@@ -740,16 +740,16 @@
                                         <span>{{ __('First') .' '.__('Year') }}</span>
                                     </h6>
                                     <div class="display-2 d-flex justify-content-center "><span
-                                            class="font-weight-bold ">{{ number_format(6250) }}</span>
+                                            class="font-weight-bold ">{{ number_format(env('PREMIUM_PACKAGE_PRICE')) }}</span>
                                         <span class="font-weight-400 pt-3 text-left"
                                               style="font-size: 18px; line-height: 1;">XAF <br/>
-                      {{ __('Monthly') }}</span></div>
+                      {{ __('Year') }}</span></div>
                                     <!-- <span>per Month</span> -->
                                     <ul class="list-unstyled my-2">
                                         <li class="align-items-center">
-                                            {{ __('Renews') .' '.  __('at') }}<strong> {{ number_format(5000) }} <sup
+                                            {{ __('Renews') .' '.  __('at') }}<strong> {{ number_format(env('PREMIUM_PACKAGE_PRICE_RENEW')) }} <sup
                                                     style="font-size: 13px;">XAF</sup></strong>
-                                            monthly
+                                            {{ __('Year') }}
                                         </li>
                                         <a href="{{ env('PREMIUM_PACKAGE_LINK') }}={{ (LaravelLocalization::getCurrentLocaleNative()) === 'English' ? 'English' : 'French' }}"
                                            class="btn btn-primary btn-round btn-lg w-100">{{ __('Order Now') }}</a>
@@ -866,15 +866,15 @@
                                         <span>{{ __('First') .' '. __('Year') }}</span>
                                     </h6>
                                     <div class="display-2 d-flex justify-content-center "><span
-                                            class="font-weight-bold ">{{ number_format(12500) }}</span>
+                                            class="font-weight-bold ">{{ number_format(env('ULTIMATE_PACKAGE_PRICE')) }}</span>
                                         <span class="font-weight-400 pt-3 text-left"
                                               style="font-size: 18px; line-height: 1;">XAF <br/>
-                      {{ __('Monthly') }}</span></div>
+                      {{ __('Year') }}</span></div>
                                     <ul class="list-unstyled my-2">
                                         <li class="align-items-center">
-                                            {{ __('Renews') .' '. __('at')}} <strong>{{ number_format(25000) }} <sup
+                                            {{ __('Renews') .' '. __('at')}} <strong>{{ number_format(env('ULTIMATE_PACKAGE_PRICE_RENEW')) }} <sup
                                                     style="font-size: 13px;">XAF</sup></strong>
-                                            {{ __('Monthly') }}
+                                            {{ __('Year') }}
                                         </li>
                                         <a target="_blank"
                                            href="{{ env('ULTIMATE_PACKAGE_LINK') }}={{ (LaravelLocalization::getCurrentLocaleNative()) === 'English' ? 'English' : 'French' }}"
