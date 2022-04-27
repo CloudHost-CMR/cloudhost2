@@ -727,8 +727,8 @@
         <div class="smallprint row">
             <div class="col grid_6_of_12 sitecopyright">
                 <p>&copy; Copyright {{ date('Y') }} CLOUDHOST<span class="footer-seperator"><a
-                            href="https://cloudhost.cm/terms-conditions">Terms & Conditions</a></span><span
-                        class="footer-seperator"><a href="https://cloudhost.cm/privacy-policy">Privacy Policy</a></span>
+                            href="{{ env('app_url') }}/terms-conditions">Terms & Conditions</a></span><span
+                        class="footer-seperator"><a href="{{ env('app_url') }}/privacy-policy">Privacy Policy</a></span>
                 </p>
             </div> <!-- /.col.grid_6_of_12.sitecopyright -->
         </div> <!-- /.smallprint.row -->
