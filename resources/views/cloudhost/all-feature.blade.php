@@ -173,10 +173,10 @@
                                         </tr>
                                         <tr>
                                             <td>
-                                                Websites (addon domains)
+                                                Websites
                                             </td>
                                             <td class="text-center">
-                                                5
+                                                1
                                             </td>
                                             <td class="text-center">
                                                 25

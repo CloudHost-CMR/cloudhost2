@@ -78,12 +78,6 @@
                                         class="fa fa-star"></i> 250GB SSD Disk space <i
                                         class="fas text-light fa-info-circle"></i></span>
 
-                                <span class="mb-2 tooltipped  text-success" title="5 Websites (addon domains)"
-                                      data-toggle="popover"
-                                      data-content="<p class='my-0 f-8px' style='font-size:'8px''>You can add upto 5 website to your cpanel account.</p>"><i
-                                        class="fa fa-star"></i> 5 Websites (addon domains) <i
-                                        class="fas text-light fa-info-circle"></i></span>
-
                                 <span class="mb-2 tooltipped" title="Unlimited Sub-domains" data-toggle="popover"
                                       data-content="<p class='my-0 f-8px'>No limits to the number of sub domains you can add to your website.</p>"><i
                                         class="fa fa-check text-success"></i> Unlimited Sub-domains <i
@@ -135,12 +129,6 @@
                                       data-toggle="popover"
                                       data-content="<p class='my-0 f-8px' style='font-size:'8px''>Our storage is available for you to use for your website files only and not for data archiving including email, computer files, backup, etc.</p>"><i
                                         class="fa fa-star"></i> 250GB SSD Disk space <i
-                                        class="fas text-light fa-info-circle"></i></span>
-
-                                <span class="mb-2 tooltipped  text-success" title="5 Websites (addon domains)"
-                                      data-toggle="popover"
-                                      data-content="<p class='my-0 f-8px' style='font-size:'8px''>You can add upto 5 website to your cpanel account.</p>"><i
-                                        class="fa fa-star"></i> 5 Websites (addon domains) <i
                                         class="fas text-light fa-info-circle"></i></span>
 
                                 <span class="mb-2 tooltipped" title="Unlimited Sub-domains" data-toggle="popover"
@@ -230,12 +218,6 @@
                                         class="fa fa-star"></i> 500GB SSD Disk space <i
                                         class="fas text-light fa-info-circle"></i></span>
 
-                                <span class="mb-2 tooltipped  text-success" title="25 Websites (addon domains)"
-                                      data-toggle="popover"
-                                      data-content="<p class='my-0 f-8px' style='font-size:'8px''>You can add upto 25 website to your cpanel account.</p>"><i
-                                        class="fa fa-star"></i> 25 Websites (addon domains) <i
-                                        class="fas text-light fa-info-circle"></i></span>
-
                                 <span class="mb-2 tooltipped" title="Unlimited Sub-domains" data-toggle="popover"
                                       data-content="<p class='my-0 f-8px'>No limits to the number of sub domains you can add to your website.</p>"><i
                                         class="fa fa-check text-success"></i> Unlimited Sub-domains <i
@@ -287,12 +269,6 @@
                                       data-toggle="popover"
                                       data-content="<p class='my-0 f-8px' style='font-size:'8px''>Unlimited Storage allows you to use and grow your web hosting account with Cloudhost without incurring any additional storage fees. Our storage is available for you to use for your website files only and not for data archiving including email, computer files, backup, etc.</p>"><i
                                         class="fa fa-star"></i> 500GB SSD Disk space <i
-                                        class="fas text-light fa-info-circle"></i></span>
-
-                                <span class="mb-2 tooltipped  text-success" title="5 Websites (addon domains)"
-                                      data-toggle="popover"
-                                      data-content="<p class='my-0 f-8px' style='font-size:'8px''>Unlimited Storage allows you to use and grow your web hosting account with Cloudhost without incurring any additional storage fees. Our storage is available for you to use for your website files only and not for data archiving including email, computer files, backup, etc.</p>"><i
-                                        class="fa fa-star"></i> 25 Websites (addon domains) <i
                                         class="fas text-light fa-info-circle"></i></span>
 
                                 <span class="mb-2 tooltipped" title="Unlimited Sub-domains" data-toggle="popover"
@@ -641,10 +617,6 @@
                                         <span class="mb-2 tooltipped  text-success" title="250GB SSD Disk space" data-toggle="popover" data-content="<p class='my-0 f-8px' style='font-size:'8px''>Our storage is available for you to use for your website files only and not for data archiving including email, computer files, backup, etc.</p>"><i
                                                 class="fa fa-star"></i> 250GB SSD Disk space <i class="fas text-light fa-info-circle"></i></span>
 
-                                        <span class="mb-2 tooltipped  text-success" title="5 Websites (addon domains)" data-toggle="popover" data-content="<p class='my-0 f-8px' style='font-size:'8px''>You can add upto 5 website to your cpanel account.</p>"><i
-                                                class="fa fa-star"></i> 5 Websites (addon domains) <i
-                                                class="fas text-light fa-info-circle"></i></span>
-
                                         <span class="mb-2 tooltipped" title="Unlimited Sub-domains" data-toggle="popover" data-content="<p class='my-0 f-8px'>No limits to the number of sub domains you can add to your website.</p>"><i
                                                 class="fa fa-check text-success"></i> Unlimited Sub-domains <i
                                                 class="fas text-light fa-info-circle"></i></span>
@@ -685,10 +657,6 @@
 
                                         <span class="mb-2 tooltipped text-success" title="250GB SSD Disk space" data-toggle="popover" data-content="<p class='my-0 f-8px' style='font-size:'8px''>Our storage is available for you to use for your website files only and not for data archiving including email, computer files, backup, etc.</p>"><i
                                                 class="fa fa-star"></i> 250GB SSD Disk space <i class="fas text-light fa-info-circle"></i></span>
-
-                                        <span class="mb-2 tooltipped  text-success" title="5 Websites (addon domains)" data-toggle="popover" data-content="<p class='my-0 f-8px' style='font-size:'8px''>You can add upto 5 website to your cpanel account.</p>"><i
-                                                class="fa fa-star"></i> 5 Websites (addon domains) <i
-                                                class="fas text-light fa-info-circle"></i></span>
 
                                         <span class="mb-2 tooltipped" title="Unlimited Sub-domains" data-toggle="popover" data-content="<p class='my-0 f-8px'>No limits to the number of sub domains you can add to your website.</p>"><i
                                                 class="fa fa-check text-success"></i> Unlimited Sub-domains <i
@@ -763,10 +731,6 @@
                                         <span class="mb-2 tooltipped text-success" title="500GB SSD Disk space" data-toggle="popover" data-content="<p class='my-0 f-8px' style='font-size:'8px''>Our storage is available for you to use for your website files only and not for data archiving including email, computer files, backup, etc.</p>"><i
                                                 class="fa fa-star"></i> 500GB SSD Disk space <i class="fas text-light fa-info-circle"></i></span>
 
-                                        <span class="mb-2 tooltipped  text-success" title="25 Websites (addon domains)" data-toggle="popover" data-content="<p class='my-0 f-8px' style='font-size:'8px''>You can add upto 25 website to your cpanel account.</p>"><i
-                                                class="fa fa-star"></i> 25 Websites (addon domains) <i
-                                                class="fas text-light fa-info-circle"></i></span>
-
                                         <span class="mb-2 tooltipped" title="Unlimited Sub-domains" data-toggle="popover" data-content="<p class='my-0 f-8px'>No limits to the number of sub domains you can add to your website.</p>"><i
                                                 class="fa fa-check text-success"></i> Unlimited Sub-domains <i
                                                 class="fas text-light fa-info-circle"></i></span>
@@ -808,10 +772,6 @@
 
                                         <span class="mb-2 tooltipped text-success" title="Unlimited SSD Disk space" data-toggle="popover" data-content="<p class='my-0 f-8px' style='font-size:'8px''>Unlimited Storage allows you to use and grow your web hosting account with Cloudhost without incurring any additional storage fees. Our storage is available for you to use for your website files only and not for data archiving including email, computer files, backup, etc.</p>"><i
                                                 class="fa fa-star"></i> 500GB SSD Disk space <i class="fas text-light fa-info-circle"></i></span>
-
-                                        <span class="mb-2 tooltipped  text-success" title="5 Websites (addon domains)" data-toggle="popover" data-content="<p class='my-0 f-8px' style='font-size:'8px''>Unlimited Storage allows you to use and grow your web hosting account with Cloudhost without incurring any additional storage fees. Our storage is available for you to use for your website files only and not for data archiving including email, computer files, backup, etc.</p>"><i
-                                                class="fa fa-star"></i> 25 Websites (addon domains) <i
-                                                class="fas text-light fa-info-circle"></i></span>
 
                                         <span class="mb-2 tooltipped" title="Unlimited Sub-domains" data-toggle="popover" data-content="<p class='my-0 f-8px'>No limits to the number of sub domains you can add to your website.</p>"><i
                                                 class="fa fa-check text-success"></i> Unlimited Sub-domains <i
