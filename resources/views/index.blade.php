@@ -9,8 +9,8 @@
                 <div class="col-md-7 col-12">
                     <h1 class="display-1 d-none d-md-block text-white"> {{ __('Buy Web hosting')  ." ".  __('in')  .' '. __('Cameroon') }}</h1>
                     <h1 class="mt-6 d-md-none d-block text-white"> {{ __('Buy Web hosting')  ." ".  __('in')  .' '. __('Cameroon') }}</h1>
-                    <h2 class="text-white d-none d-md-block">{{ __('Free Domain name for Life included') }}</h2>
-                    <h4 class="text-white d-md-none d-block">{{ __('Free Domain name for Life included') }}</h4>
+{{--                    <h2 class="text-white d-none d-md-block">{{ __('Free Domain name for Life included') }}</h2>--}}
+{{--                    <h4 class="text-white d-md-none d-block">{{ __('Free Domain name for Life included') }}</h4>--}}
                     <p class="pb-4 text-white mt-0">{{ __('We provide reliable, fast and secure Web hosting services with Premium Customer service of over 15+ years of experience') }}
                         .</p>
                 </div>
@@ -99,10 +99,10 @@
                                         class="fa fa-check text-success"></i> Unlimited MySQL Databases <i
                                         class="fas text-light fa-info-circle"></i></span>
 
-                                <span class="mb-2 tooltipped" title="FREE Domain for life" data-toggle="popover"
-                                      data-content="<p class='my-0 f-8px'>Free domains include: <strong class='font-weight-bold'>.cm</strong>, <strong class='font-weight-bold'>.rw</strong>, <strong class='font-weight-bold'>.com</strong>, <strong class='font-weight-bold'>.net</strong>. If you cancel your hosting account in the first term a non-refundable domain fee will be applied.</p>"><i
-                                        class="fa fa-check text-success"></i> FREE Domain for life <i
-                                        class="fas text-light fa-info-circle"></i></span>
+{{--                                <span class="mb-2 tooltipped" title="FREE Domain for life" data-toggle="popover"--}}
+{{--                                      data-content="<p class='my-0 f-8px'>Free domains include: <strong class='font-weight-bold'>.cm</strong>, <strong class='font-weight-bold'>.rw</strong>, <strong class='font-weight-bold'>.com</strong>, <strong class='font-weight-bold'>.net</strong>. If you cancel your hosting account in the first term a non-refundable domain fee will be applied.</p>"><i--}}
+{{--                                        class="fa fa-check text-success"></i> FREE Domain for life <i--}}
+{{--                                        class="fas text-light fa-info-circle"></i></span>--}}
 
 
                                 <span class="mb-2 tooltipped" title="FREE SSL Certificate" data-toggle="popover"
@@ -152,10 +152,10 @@
                                         class="fa fa-check text-success"></i> Unlimited MySQL Databases <i
                                         class="fas text-light fa-info-circle"></i></span>
 
-                                <span class="mb-2 tooltipped" title="FREE Domain for life" data-toggle="popover"
-                                      data-content="<p class='my-0 f-8px'>Free domains include: <strong class='font-weight-bold'>.cm</strong>, <strong class='font-weight-bold'>.rw</strong>, <strong class='font-weight-bold'>.com</strong>, <strong class='font-weight-bold'>.net</strong>. If you cancel your hosting account in the first term a non-refundable domain fee will be applied.</p>"><i
-                                        class="fa fa-check text-success"></i> FREE Domain for life <i
-                                        class="fas text-light fa-info-circle"></i></span>
+{{--                                <span class="mb-2 tooltipped" title="FREE Domain for life" data-toggle="popover"--}}
+{{--                                      data-content="<p class='my-0 f-8px'>Free domains include: <strong class='font-weight-bold'>.cm</strong>, <strong class='font-weight-bold'>.rw</strong>, <strong class='font-weight-bold'>.com</strong>, <strong class='font-weight-bold'>.net</strong>. If you cancel your hosting account in the first term a non-refundable domain fee will be applied.</p>"><i--}}
+{{--                                        class="fa fa-check text-success"></i> FREE Domain for life <i--}}
+{{--                                        class="fas text-light fa-info-circle"></i></span>--}}
 
 
                                 <span class="mb-2 tooltipped" title="FREE SSL Certificate" data-toggle="popover"
@@ -217,6 +217,11 @@
                                       data-content="<p class='my-0 f-8px' style='font-size:'8px''>Our storage is available for you to use for your website files only and not for data archiving including email, computer files, backup, etc.</p>"><i
                                         class="fa fa-star"></i> 500GB SSD Disk space <i
                                         class="fas text-light fa-info-circle"></i></span>
+                                <span class="mb-2 tooltipped  text-success" title="25 Websites (addon domains)"
+                                      data-toggle="popover"
+                                      data-content="<p class='my-0 f-8px' style='font-size:'8px''>You can add upto 25 website to your cpanel account.</p>"><i
+                                        class="fa fa-star"></i> 5 Websites (addon domains) <i
+                                        class="fas text-light fa-info-circle"></i></span>
 
                                 <span class="mb-2 tooltipped" title="Unlimited Sub-domains" data-toggle="popover"
                                       data-content="<p class='my-0 f-8px'>No limits to the number of sub domains you can add to your website.</p>"><i
@@ -239,10 +244,10 @@
                                         class="fa fa-check text-success"></i> Unlimited MySQL Databases <i
                                         class="fas text-light fa-info-circle"></i></span>
 
-                                <span class="mb-2 tooltipped" title="FREE Domain for life" data-toggle="popover"
-                                      data-content="<p class='my-0 f-8px'>Free domains include: <strong class='font-weight-bold'>.cm</strong>, <strong class='font-weight-bold'>.rw</strong>, <strong class='font-weight-bold'>.com</strong>, <strong class='font-weight-bold'>.net</strong>. If you cancel your hosting account in the first term a non-refundable domain fee will be applied.</p>"><i
-                                        class="fa fa-check text-success"></i> FREE Domain for life <i
-                                        class="fas text-light fa-info-circle"></i></span>
+{{--                                <span class="mb-2 tooltipped" title="FREE Domain for life" data-toggle="popover"--}}
+{{--                                      data-content="<p class='my-0 f-8px'>Free domains include: <strong class='font-weight-bold'>.cm</strong>, <strong class='font-weight-bold'>.rw</strong>, <strong class='font-weight-bold'>.com</strong>, <strong class='font-weight-bold'>.net</strong>. If you cancel your hosting account in the first term a non-refundable domain fee will be applied.</p>"><i--}}
+{{--                                        class="fa fa-check text-success"></i> FREE Domain for life <i--}}
+{{--                                        class="fas text-light fa-info-circle"></i></span>--}}
 
 
                                 <span class="mb-2 tooltipped" title="FREE SSL Certificate" data-toggle="popover"
@@ -292,10 +297,10 @@
                                         class="fa fa-check text-success"></i> Unlimited MySQL Databases <i
                                         class="fas text-light fa-info-circle"></i></span>
 
-                                <span class="mb-2 tooltipped" title="FREE Domain for life" data-toggle="popover"
-                                      data-content="<p class='my-0 f-8px'>Free domains include: <strong class='font-weight-bold'>.cm</strong>, <strong class='font-weight-bold'>.rw</strong>, <strong class='font-weight-bold'>.com</strong>, <strong class='font-weight-bold'>.net</strong>. If you cancel your hosting account in the first term a non-refundable domain fee will be applied.</p>"><i
-                                        class="fa fa-check text-success"></i> FREE Domain for life <i
-                                        class="fas text-light fa-info-circle"></i></span>
+{{--                                <span class="mb-2 tooltipped" title="FREE Domain for life" data-toggle="popover"--}}
+{{--                                      data-content="<p class='my-0 f-8px'>Free domains include: <strong class='font-weight-bold'>.cm</strong>, <strong class='font-weight-bold'>.rw</strong>, <strong class='font-weight-bold'>.com</strong>, <strong class='font-weight-bold'>.net</strong>. If you cancel your hosting account in the first term a non-refundable domain fee will be applied.</p>"><i--}}
+{{--                                        class="fa fa-check text-success"></i> FREE Domain for life <i--}}
+{{--                                        class="fas text-light fa-info-circle"></i></span>--}}
 
 
                                 <span class="mb-2 tooltipped" title="FREE SSL Certificate" data-toggle="popover"
@@ -392,10 +397,10 @@
                                         class="fa fa-check text-success"></i> Unlimited MySQL Databases <i
                                         class="fas text-light fa-info-circle"></i></span>
 
-                                <span class="mb-2 tooltipped" title="FREE Domain for life" data-toggle="popover"
-                                      data-content="<p class='my-0 f-8px'>Free domains include: <strong class='font-weight-bold'>.cm</strong>, <strong class='font-weight-bold'>.rw</strong>, <strong class='font-weight-bold'>.com</strong>, <strong class='font-weight-bold'>.net</strong>. If you cancel your hosting account in the first term a non-refundable domain fee will be applied.</p>"><i
-                                        class="fa fa-check text-success"></i> FREE Domain for life <i
-                                        class="fas text-light fa-info-circle"></i></span>
+{{--                                <span class="mb-2 tooltipped" title="FREE Domain for life" data-toggle="popover"--}}
+{{--                                      data-content="<p class='my-0 f-8px'>Free domains include: <strong class='font-weight-bold'>.cm</strong>, <strong class='font-weight-bold'>.rw</strong>, <strong class='font-weight-bold'>.com</strong>, <strong class='font-weight-bold'>.net</strong>. If you cancel your hosting account in the first term a non-refundable domain fee will be applied.</p>"><i--}}
+{{--                                        class="fa fa-check text-success"></i> FREE Domain for life <i--}}
+{{--                                        class="fas text-light fa-info-circle"></i></span>--}}
 
 
                                 <span class="mb-2 tooltipped" title="Unlimited Bandwith" data-toggle="popover"
@@ -463,10 +468,10 @@
                                         class="fa fa-check text-success"></i> Unlimited MySQL Databases <i
                                         class="fas text-light fa-info-circle"></i></span>
 
-                                <span class="mb-2 tooltipped" title="FREE Domain for life" data-toggle="popover"
-                                      data-content="<p class='my-0 f-8px'>Free domains include: <strong class='font-weight-bold'>.cm</strong>, <strong class='font-weight-bold'>.rw</strong>, <strong class='font-weight-bold'>.com</strong>, <strong class='font-weight-bold'>.net</strong>. If you cancel your hosting account in the first term a non-refundable domain fee will be applied.</p>"><i
-                                        class="fa fa-check text-success"></i> FREE Domain for life <i
-                                        class="fas text-light fa-info-circle"></i></span>
+{{--                                <span class="mb-2 tooltipped" title="FREE Domain for life" data-toggle="popover"--}}
+{{--                                      data-content="<p class='my-0 f-8px'>Free domains include: <strong class='font-weight-bold'>.cm</strong>, <strong class='font-weight-bold'>.rw</strong>, <strong class='font-weight-bold'>.com</strong>, <strong class='font-weight-bold'>.net</strong>. If you cancel your hosting account in the first term a non-refundable domain fee will be applied.</p>"><i--}}
+{{--                                        class="fa fa-check text-success"></i> FREE Domain for life <i--}}
+{{--                                        class="fas text-light fa-info-circle"></i></span>--}}
 
 
                                 <span class="mb-2 tooltipped" title="Unlimited Bandwith" data-toggle="popover"
@@ -574,10 +579,10 @@
                 <div class="col-md-12 mb-4 text-center">
                     <h1 class="display-1 d-none d-md-block text-white"> {{ __('Choose your Package') }} </h1>
                     <h1 class="mt-6 d-md-none d-block text-white"> {{ __('Choose your Package') }}</h1>
-                    <h2 class="text-white d-none d-md-block">{{ __('Free Domain for Life name included') }}</h2>
-                    <h4 class="text-white d-md-none d-block">{{ __('Free Domain for Life name included') }}</h4>
+{{--                    <h2 class="text-white d-none d-md-block">{{ __('Free Domain for Life name included') }}</h2>--}}
+{{--                    <h4 class="text-white d-md-none d-block">{{ __('Free Domain for Life name included') }}</h4>--}}
                 </div>
-                <div class="col-md-8 m-auto">
+                <div class="col-md-12 m-auto">
                     <div class="row">
 
                         <div class=" col-md-3 col-sm-6 ">
@@ -634,9 +639,9 @@
                                                 class="fa fa-check text-success"></i> Unlimited MySQL Databases <i
                                                 class="fas text-light fa-info-circle"></i></span>
 
-                                        <span class="mb-2 tooltipped" title="FREE Domain for life" data-toggle="popover" data-content="<p class='my-0 f-8px'>Free domains include: <strong class='font-weight-bold'>.cm</strong>, <strong class='font-weight-bold'>.rw</strong>, <strong class='font-weight-bold'>.com</strong>, <strong class='font-weight-bold'>.net</strong>. If you cancel your hosting account in the first term a non-refundable domain fee will be applied.</p>"><i
-                                                class="fa fa-check text-success"></i> FREE Domain for life <i
-                                                class="fas text-light fa-info-circle"></i></span>
+{{--                                        <span class="mb-2 tooltipped" title="FREE Domain for life" data-toggle="popover" data-content="<p class='my-0 f-8px'>Free domains include: <strong class='font-weight-bold'>.cm</strong>, <strong class='font-weight-bold'>.rw</strong>, <strong class='font-weight-bold'>.com</strong>, <strong class='font-weight-bold'>.net</strong>. If you cancel your hosting account in the first term a non-refundable domain fee will be applied.</p>"><i--}}
+{{--                                                class="fa fa-check text-success"></i> FREE Domain for life <i--}}
+{{--                                                class="fas text-light fa-info-circle"></i></span>--}}
 
 
                                         <span class="mb-2 tooltipped" title="FREE SSL Certificate" data-toggle="popover" data-content="<p class='my-0 f-8px'>We provide you with free SSL certificates through Cloudfare which you can activate from inside your cPanel.</p>"><i
@@ -675,9 +680,9 @@
                                                 class="fa fa-check text-success"></i> Unlimited MySQL Databases <i
                                                 class="fas text-light fa-info-circle"></i></span>
 
-                                        <span class="mb-2 tooltipped" title="FREE Domain for life" data-toggle="popover" data-content="<p class='my-0 f-8px'>Free domains include: <strong class='font-weight-bold'>.cm</strong>, <strong class='font-weight-bold'>.rw</strong>, <strong class='font-weight-bold'>.com</strong>, <strong class='font-weight-bold'>.net</strong>. If you cancel your hosting account in the first term a non-refundable domain fee will be applied.</p>"><i
-                                                class="fa fa-check text-success"></i> FREE Domain for life <i
-                                                class="fas text-light fa-info-circle"></i></span>
+{{--                                        <span class="mb-2 tooltipped" title="FREE Domain for life" data-toggle="popover" data-content="<p class='my-0 f-8px'>Free domains include: <strong class='font-weight-bold'>.cm</strong>, <strong class='font-weight-bold'>.rw</strong>, <strong class='font-weight-bold'>.com</strong>, <strong class='font-weight-bold'>.net</strong>. If you cancel your hosting account in the first term a non-refundable domain fee will be applied.</p>"><i--}}
+{{--                                                class="fa fa-check text-success"></i> FREE Domain for life <i--}}
+{{--                                                class="fas text-light fa-info-circle"></i></span>--}}
 
 
                                         <span class="mb-2 tooltipped" title="FREE SSL Certificate" data-toggle="popover" data-content="<p class='my-0 f-8px'>We provide you with free SSL certificates through Cloudfare which you can activate from inside your cPanel.</p>"><i
@@ -730,6 +735,9 @@
 
                                         <span class="mb-2 tooltipped text-success" title="500GB SSD Disk space" data-toggle="popover" data-content="<p class='my-0 f-8px' style='font-size:'8px''>Our storage is available for you to use for your website files only and not for data archiving including email, computer files, backup, etc.</p>"><i
                                                 class="fa fa-star"></i> 500GB SSD Disk space <i class="fas text-light fa-info-circle"></i></span>
+                                        <span class="mb-2 tooltipped  text-success" title="25 Websites (addon domains)" data-toggle="popover" data-content="<p class='my-0 f-8px' style='font-size:'8px''>You can add upto 25 website to your cpanel account.</p>"><i
+                                                class="fa fa-star"></i> 5 Websites (addon domains) <i
+                                                class="fas text-light fa-info-circle"></i></span>
 
                                         <span class="mb-2 tooltipped" title="Unlimited Sub-domains" data-toggle="popover" data-content="<p class='my-0 f-8px'>No limits to the number of sub domains you can add to your website.</p>"><i
                                                 class="fa fa-check text-success"></i> Unlimited Sub-domains <i
@@ -748,9 +756,9 @@
                                                 class="fa fa-check text-success"></i> Unlimited MySQL Databases <i
                                                 class="fas text-light fa-info-circle"></i></span>
 
-                                        <span class="mb-2 tooltipped" title="FREE Domain for life" data-toggle="popover" data-content="<p class='my-0 f-8px'>Free domains include: <strong class='font-weight-bold'>.cm</strong>, <strong class='font-weight-bold'>.rw</strong>, <strong class='font-weight-bold'>.com</strong>, <strong class='font-weight-bold'>.net</strong>. If you cancel your hosting account in the first term a non-refundable domain fee will be applied.</p>"><i
-                                                class="fa fa-check text-success"></i> FREE Domain for life <i
-                                                class="fas text-light fa-info-circle"></i></span>
+{{--                                        <span class="mb-2 tooltipped" title="FREE Domain for life" data-toggle="popover" data-content="<p class='my-0 f-8px'>Free domains include: <strong class='font-weight-bold'>.cm</strong>, <strong class='font-weight-bold'>.rw</strong>, <strong class='font-weight-bold'>.com</strong>, <strong class='font-weight-bold'>.net</strong>. If you cancel your hosting account in the first term a non-refundable domain fee will be applied.</p>"><i--}}
+{{--                                                class="fa fa-check text-success"></i> FREE Domain for life <i--}}
+{{--                                                class="fas text-light fa-info-circle"></i></span>--}}
 
 
 
@@ -790,9 +798,9 @@
                                                 class="fa fa-check text-success"></i> Unlimited MySQL Databases <i
                                                 class="fas text-light fa-info-circle"></i></span>
 
-                                        <span class="mb-2 tooltipped" title="FREE Domain for life" data-toggle="popover" data-content="<p class='my-0 f-8px'>Free domains include: <strong class='font-weight-bold'>.cm</strong>, <strong class='font-weight-bold'>.rw</strong>, <strong class='font-weight-bold'>.com</strong>, <strong class='font-weight-bold'>.net</strong>. If you cancel your hosting account in the first term a non-refundable domain fee will be applied.</p>"><i
-                                                class="fa fa-check text-success"></i> FREE Domain for life <i
-                                                class="fas text-light fa-info-circle"></i></span>
+{{--                                        <span class="mb-2 tooltipped" title="FREE Domain for life" data-toggle="popover" data-content="<p class='my-0 f-8px'>Free domains include: <strong class='font-weight-bold'>.cm</strong>, <strong class='font-weight-bold'>.rw</strong>, <strong class='font-weight-bold'>.com</strong>, <strong class='font-weight-bold'>.net</strong>. If you cancel your hosting account in the first term a non-refundable domain fee will be applied.</p>"><i--}}
+{{--                                                class="fa fa-check text-success"></i> FREE Domain for life <i--}}
+{{--                                                class="fas text-light fa-info-circle"></i></span>--}}
 
 
 
@@ -875,9 +883,9 @@
                                                 class="fa fa-check text-success"></i> Unlimited MySQL Databases <i
                                                 class="fas text-light fa-info-circle"></i></span>
 
-                                        <span class="mb-2 tooltipped" title="FREE Domain for life" data-toggle="popover" data-content="<p class='my-0 f-8px'>Free domains include: <strong class='font-weight-bold'>.cm</strong>, <strong class='font-weight-bold'>.rw</strong>, <strong class='font-weight-bold'>.com</strong>, <strong class='font-weight-bold'>.net</strong>. If you cancel your hosting account in the first term a non-refundable domain fee will be applied.</p>"><i
-                                                class="fa fa-check text-success"></i> FREE Domain for life <i
-                                                class="fas text-light fa-info-circle"></i></span>
+{{--                                        <span class="mb-2 tooltipped" title="FREE Domain for life" data-toggle="popover" data-content="<p class='my-0 f-8px'>Free domains include: <strong class='font-weight-bold'>.cm</strong>, <strong class='font-weight-bold'>.rw</strong>, <strong class='font-weight-bold'>.com</strong>, <strong class='font-weight-bold'>.net</strong>. If you cancel your hosting account in the first term a non-refundable domain fee will be applied.</p>"><i--}}
+{{--                                                class="fa fa-check text-success"></i> FREE Domain for life <i--}}
+{{--                                                class="fas text-light fa-info-circle"></i></span>--}}
 
 
 
@@ -929,9 +937,9 @@
                                                 class="fa fa-check text-success"></i> Unlimited MySQL Databases <i
                                                 class="fas text-light fa-info-circle"></i></span>
 
-                                        <span class="mb-2 tooltipped" title="FREE Domain for life" data-toggle="popover" data-content="<p class='my-0 f-8px'>Free domains include: <strong class='font-weight-bold'>.cm</strong>, <strong class='font-weight-bold'>.rw</strong>, <strong class='font-weight-bold'>.com</strong>, <strong class='font-weight-bold'>.net</strong>. If you cancel your hosting account in the first term a non-refundable domain fee will be applied.</p>"><i
-                                                class="fa fa-check text-success"></i> FREE Domain for life <i
-                                                class="fas text-light fa-info-circle"></i></span>
+{{--                                        <span class="mb-2 tooltipped" title="FREE Domain for life" data-toggle="popover" data-content="<p class='my-0 f-8px'>Free domains include: <strong class='font-weight-bold'>.cm</strong>, <strong class='font-weight-bold'>.rw</strong>, <strong class='font-weight-bold'>.com</strong>, <strong class='font-weight-bold'>.net</strong>. If you cancel your hosting account in the first term a non-refundable domain fee will be applied.</p>"><i--}}
+{{--                                                class="fa fa-check text-success"></i> FREE Domain for life <i--}}
+{{--                                                class="fas text-light fa-info-circle"></i></span>--}}
 
 
                                         <span class="mb-2 tooltipped" title="Unlimited Bandwith" data-toggle="popover" data-content="<p class='my-0 f-8px'>With Daily Automated Backup you can rest easy knowing you have a backup plan incase you are faced with lost or corrupted files.</p>"><i
