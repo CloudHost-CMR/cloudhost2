@@ -14,7 +14,7 @@
     <link href="https://use.fontawesome.com/releases/v5.10.1/css/all.css" rel="stylesheet">
     <!-- Nucleo Icons -->
     <link href="{{ asset('assets/css/nucleo-icons.css') }}" rel="stylesheet"/>
-    <link href="{{ asset('assets/css/nucleo-svg.css') }}" rel="stylesheet"
+    <link href="{{ asset('assets/css/nucleo-svg.css') }}" rel="stylesheet" />
     <!-- Font Awesome Icons -->
     <link href="{{ asset('assets/css/font-awesome.css') }}" rel="stylesheet"/>
     <link href="{{ asset('assets/css/nucleo-svg.css') }}" rel="stylesheet"/>
